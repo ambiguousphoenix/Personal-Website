@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+/* ---------- COLORS ---------- */
+
+.bgColor-lightGrey {
+    background-color: #e0e0e0;
+}
+
+.bgColor-darkGrey {
+    background-color: #202020;
+}
+
+.bgColor-black {
+    background-color: #000000;
+}
+
+.bgColor-DEV {
+    background-color: #f0a0a0;
+}
+
+.textColor-white {
+    color: #ffffff;
+}
+
+.textColor-lightGrey {
+    color: #b0b0b0;
+}
+
+.textColor-black {
+    color: #000000;
+}
+
+#navbar {
+  background-color: #404040;
+}
+
+#navbar-text {
+    color: #ffffff;
+    background-color: #404040;
+}
+
+#navbar-text:hover {
+    background-color: #595959;
+}
+
+.navbar-link {
+	background-color: #404040;
+}
+
+.navbar-link:hover {
+	background-color: #595959;
+}
+
+#navbar-socialMedia {
+    background-color: #2e2e2e;
+}
+
+#socialMedia {
+    background: #181818c0;
+}
+
+#youtube {
+    background-color: #d4373700;
+}
+
+#youtube:hover {
+    background-color: #d43737ff;
+}
+
+#twitter {
+    background-color: #4e9ed500;
+}
+
+#twitter:hover {
+    background-color: #4e9ed5ff;
+}
+
+#deviantart {
+    background-color: #3dc08400;
+}
+
+#deviantart:hover {
+    background-color: #3dc084ff;
+}
+
+#footer {
+    background-color: #404040;
+}

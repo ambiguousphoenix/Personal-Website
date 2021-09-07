@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^school school.html
+RewriteRule ^photos photos.html
+RewriteRule ^renders renders.html
+RewriteRule ^games games.html
