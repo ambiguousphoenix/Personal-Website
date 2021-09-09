@@ -62,15 +62,27 @@ img {
     pointer-events: none;
 }
 
-.avatar {
+.avatar1 {
     width: 15rem;
-    opacity: 0%;
-    padding: 35px;
+    padding: 8rem;
     margin-bottom: 50px;
     border-radius: 25rem;
     animation-name: avatarFadeIn;
-    animation-duration: 0.6s;
-    animation-delay: 0.33s;
+    animation-duration: 0.8s;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.avatar2 {
+    width: 15rem;
+    padding: 8rem;
+    margin-bottom: 50px;
+    border-radius: 25rem;
+    animation-name: avatarFadeIn;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
@@ -78,12 +90,10 @@ img {
 
 @keyframes avatarFadeIn {
   0%   {
-      padding: 4rem;
-      opacity: 0%;
+      padding: 8rem;
   }
   100%   {
       padding: 0rem;
-      opacity: 100%;
   }
 }
 
