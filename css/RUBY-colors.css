@@ -31,16 +31,20 @@
     color: #000000;
 }
 
-#navbar {
+#navbarDesktop {
   background-color: #404040;
 }
 
-#navbar-text {
+#navbarMobile {
+  background-color: #404040;
+}
+
+.navbar-text {
     color: #ffffff;
     background-color: #404040;
 }
 
-#navbar-text:hover {
+.navbar-text:hover {
     background-color: #595959;
 }
 

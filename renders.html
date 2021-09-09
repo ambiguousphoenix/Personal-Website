@@ -15,15 +15,15 @@
     </head>
     <body id="page-top" onload="document.body.style.opacity='1'">
 
-        <!-- Navbar -->
-        <nav id="navbar">
+		<!-- Navbar Desktop-->
+        <nav id="navbarDesktop">
             <div class="container-fluid">
-                <a href="index.html"><div id="navbar-text">
+                <a href="index.html"><div class="navbar-text">
                     <span>AmbiguousPhoenix</span>
                 </div></a>
 				<div style="width: 2px; height: 50px; margin-left: 0.75rem; background-color: #666666;"></div>
-				<a href="school.html" style="margin-left: 0.75rem;">
-					<div class="navbar-link">
+				<a href="school.html">
+					<div class="navbar-link" style="margin-left: 0.75rem;">
 						<img class="navbar-linkIcon" src="assets/weltec.svg"/>
 					</div>
 				</a>
@@ -52,6 +52,32 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </nav>
+
+
+		<!-- Navbar Mobile -->
+        <nav id="navbarMobile">
+            <div class="container-fluid">
+                <a href="index.html"><div class="navbar-text" style="width: 100%;">
+                    <span>AmbiguousPhoenix</span>
+                </div></a>
+				<div style="width: auto; height: 2px; margin-top: 0.25rem; margin-bottom: 0.25rem; background-color: #666666;"></div>
+				<div style="display: flex; flex-direction: row;">
+					<a href="school.html">
+						<div class="navbar-link">
+							<img class="navbar-linkIcon" src="assets/weltec.svg"/>
+						</div>
+					</a>
+					<a href="photos.html">
+						<div class="navbar-link">
+							<img class="navbar-linkIcon" src="assets/camera.svg"/>
+						</div>
+					</a>
+					<div class="navbar-linkDisabled" style="padding: 10px;">
+						<img class="navbar-linkIconDisabled" src="assets/renders.svg"/>
+					</div>
+				</div>
             </div>
         </nav>
         <div class="colorStrip"></div>
