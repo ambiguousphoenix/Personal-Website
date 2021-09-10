@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="432" height="496" viewBox="0 0 432 496"><path d="M190,8a18.15,18.15,0,0,0-.51,36.29H322A18.15,18.15,0,0,0,322.5,8H190ZM425.4,56.2a18.09,18.09,0,0,0-17.78,18.38,18.28,18.28,0,0,0,5.66,13l28.15,27.59a17.9,17.9,0,0,0,25.46-.33,18.26,18.26,0,0,0-.33-25.67h0L438.38,61.52A17.91,17.91,0,0,0,425.4,56.2ZM256,68.49c-119.07,0-216,97.71-216,217.75S136.92,504,256,504s216-97.71,216-217.76S375.07,68.49,256,68.49Zm0,36.29c99.63,0,180,81,180,181.46S355.62,467.71,256,467.71s-180-81-180-181.47S156.37,104.78,256,104.78Zm-.28,36A18.09,18.09,0,0,0,238,159.22V292.29a18,18,0,1,0,36,.52,4.51,4.51,0,0,0,0-.52V159.22a18.08,18.08,0,0,0-17.74-18.41Z" transform="translate(-40 -8)" style="fill-rule:evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 488">
+  <circle cx="216" cy="272" r="200" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 32px"/>
+  <line x1="152" y1="16" x2="280" y2="16" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 32px"/>
+  <line x1="376" y1="64" x2="408" y2="96" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 32px"/>
+  <line x1="216" y1="144" x2="216" y2="280" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 32px"/>
+</svg>
