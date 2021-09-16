@@ -80,12 +80,12 @@
     background-color: #4e9ed5ff;
 }
 
-#deviantart {
-    background-color: #3dc08400;
+#github {
+    background-color: #80808000;
 }
 
-#deviantart:hover {
-    background-color: #3dc084ff;
+#github:hover {
+    background-color: #808080ff;
 }
 
 #footer {

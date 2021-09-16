@@ -138,8 +138,8 @@ img {
 #socialMedia {
     border-radius: 1.15rem;
     padding: 3px;
-    width: 132px;
-    height: 50px;
+    width: auto;
+    height: auto;
     overflow: hidden;
     margin-top: 2rem;
     margin-right: auto;
@@ -182,7 +182,7 @@ img {
 	display: inherit;
 	position: relative;
 	flex-wrap: wrap;
-	padding-top: 0.25em;
+	padding-top: 0.75em;
 	padding-bottom: 0.25em;
 }
 
@@ -196,7 +196,7 @@ img {
     border-radius: 0.75rem;
     display: flex;
     height: 50px;
-    justify-content: center;
+    justify-content: left;
     transition: all 0.2s ease-out;
 }
 
@@ -246,7 +246,7 @@ img {
 #navbar-socialMedia {
     border-radius: 1.15rem;
     padding: 3px;
-    width: 132px;
+    width: auto;
     height: 50px;
 	margin-left: auto;
     margin-right: 0px;
@@ -272,7 +272,6 @@ img {
     float: left;
     width: 60px;
     height: 44px;
-    border: 0;
     border-radius: 1rem;
     transition: all 0.2s ease-out;
     object-fit: contain;
@@ -286,9 +285,7 @@ img {
     float: left;
     width: 60px;
     height: 44px;
-    border: 0;
-    margin-left: 3px;
-    margin-right: 3px;
+	margin-left: 3px;
     border-radius: 1rem;
     transition: all 0.2s ease-out;
     object-fit: contain;
@@ -298,17 +295,17 @@ img {
     object-fit: contain;
 }
 
-#deviantart {
+#github {
     float: left;
     width: 60px;
     height: 44px;
-    border: 0;
+	margin-left: 3px;
     border-radius: 1rem;
     transition: all 0.2s ease-out;
     object-fit: contain;
 }
 
-#deviantart:hover{
+#github:hover{
     object-fit: contain;
 }
 
@@ -330,7 +327,7 @@ img {
 /* ---------- BACKGROUNDS ---------- */
 
 .page-background {
-    height: 20em;
+    height: 15em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -655,6 +652,10 @@ img {
 
 @media (min-width: 960px) {
 
+	.page-background {
+		height: 18em;
+	}
+
 	.avatarContainer {
 		width: 400px;
 		height: 400px;
@@ -728,6 +729,6 @@ img {
 }
 
 .portal:hover > .portalImage {
-	box-shadow: 0rem 0.15rem 1.25rem #000000a0;
+	box-shadow: 0rem 0.15rem 1rem #00000090;
 	filter: saturate(1);
 }
