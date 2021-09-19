@@ -2,5 +2,6 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteRule ^school school.html
 RewriteRule ^photos photos.html
-RewriteRule ^renders renders.html
-RewriteRule ^games games.html
+RewriteRule ^sketches sketches.html
+RewriteRule ^physicalart physicalart.html
+RewriteRule ^digitalart digitalart.html
