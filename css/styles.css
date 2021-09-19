@@ -344,12 +344,8 @@ img {
     background-image: url('header-photos.jpg');
 }
 
-.page-background-renders {
-    background-image: url('header-renders.jpg');
-}
-
-.page-background-games {
-    background-image: url('header-games.jpg');
+.page-background-blank {
+    background-color: #808080;
 }
 
 
