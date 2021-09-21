@@ -62,6 +62,13 @@ img {
     pointer-events: none;
 }
 
+#home2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #featureContent {
 	width: 360px;
 	display: flex;
@@ -82,12 +89,12 @@ img {
     width: 100%;
 	height: 100%;
 	position: absolute;
-    padding: 50%;
+    padding: 67%;
     margin-bottom: 50px;
     border-radius: 100%;
-    animation-name: avatarFadeIn;
-    animation-duration: 1s;
-    animation-delay: 0.4s;
+    animation-name: avatarFadeIn1;
+    animation-duration: 1.2s;
+    animation-delay: 0.35s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier();
     animation-fill-mode: forwards;
@@ -97,26 +104,59 @@ img {
     width: 100%;
 	height: 100%;
 	position: absolute;
-    padding: 50%;
+    padding: 67%;
     margin-bottom: 50px;
-    animation-name: avatarFadeIn;
+    border-radius: 100%;
+    animation-name: avatarFadeIn2;
     animation-duration: 1s;
-    animation-delay: 0.7s;
+    animation-delay: 0.35s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier();
     animation-fill-mode: forwards;
 }
 
-@keyframes avatarFadeIn {
+.avatar3 {
+    width: 100%;
+	height: 100%;
+	position: absolute;
+    padding: 67%;
+    margin-bottom: 50px;
+    animation-name: avatarFadeIn3;
+    animation-duration: 0.8s;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier();
+    animation-fill-mode: forwards;
+}
+
+@keyframes avatarFadeIn1 {
+  0%	{
+      padding: 50%;
+  }
+  100%	{
+      padding: 0%;
+  }
+}
+
+@keyframes avatarFadeIn2 {
+  0%	{
+      padding: 50%;
+  }
+  100%	{
+      padding: 5%;
+  }
+}
+
+@keyframes avatarFadeIn3 {
   0%	{
       padding: 50%;
 	  opacity: 0%;
   }
-  67%	{
+  40%	{
 	  opacity: 100%;
   }
   100%	{
-      padding: 0rem;
+      padding: 6%;
   }
 }
 
@@ -155,7 +195,7 @@ img {
     position: relative;
     border-radius: 1.5rem;
     transform: scale(0.93);
-    transition: all 0.2s ease-out;
+    transition: all 0.27s ease-out;
 }
 
 .portal:hover {
@@ -164,7 +204,7 @@ img {
 
 .portalImage {
     border-radius: 1.5rem;
-    transition: all 0.2s ease-out;
+    transition: all 0.27s ease-out;
 }
 
 
@@ -174,28 +214,44 @@ img {
 	display: none;
 	position: relative;
 	flex-wrap: wrap;
-	padding-top: 0.75em;
-	padding-bottom: 0.75em;
 }
 
 #navbarMobile {
 	display: inherit;
 	position: relative;
 	flex-wrap: wrap;
-	padding-top: 0.75em;
-	padding-bottom: 0.25em;
+}
+
+#navbar-logo {
+	background-color: #404040;
+	width: 360px;
+	height: 80px;
+	position: relative;
+	transition: all 0.2s ease-out;
+}
+
+#navbar-logo:hover {
+	background-color: #303030;
+}
+
+.navbar-logoImage {
+	filter: saturate(0) opacity(0.5);
+	transition: all 0.2s ease-out;
+}
+
+#navbar-logo:hover > .navbar-logoImage {
+	filter: saturate(1) opacity(1);
 }
 
 .navbar-text {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    font-size: 26.5px;
+	color: #fff;
+	padding: 25px;
+    font-size: 32px;
     font-weight: 700;
+	line-height: 0.85;
     border-radius: 0.75rem;
     display: flex;
-    height: 50px;
+    height: 80px;
     justify-content: left;
     transition: all 0.2s ease-out;
 }
@@ -249,7 +305,7 @@ img {
     width: auto;
     height: 50px;
 	margin-left: auto;
-    margin-right: 0px;
+    margin-right: 10px;
     user-select: none;
 }
 
@@ -720,11 +776,11 @@ img {
 
 
 .portalImage {
-	box-shadow: 0rem 0.15rem 0.5rem #00000060;
+	box-shadow: 0rem 0.1rem 0.5rem #00000030;
 	filter: saturate(0);
 }
 
 .portal:hover > .portalImage {
-	box-shadow: 0rem 0.15rem 1rem #00000090;
+	box-shadow: 0rem 0.15rem 2rem #00000070;
 	filter: saturate(1);
 }
