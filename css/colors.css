@@ -32,23 +32,23 @@
 }
 
 #navbarDesktop {
-  background-color: #404040;
+  background-color: #363636;
 }
 
 #navbarMobile {
-  background-color: #404040;
+  background-color: #363636;
 }
 
 .navbar-link {
-	background-color: #404040;
+	background-color: #363636;
 }
 
 .navbar-link:hover {
-	background-color: #595959;
+	background-color: #606060;
 }
 
 #socialMediaNavbar {
-    background-color: #2e2e2e;
+    background-color: #202020;
 }
 
 #socialMedia {
@@ -56,29 +56,29 @@
 }
 
 #youtube {
-    background-color: #2e2e2e;
+    background-color: #202020;
 }
 
 #youtube:hover {
-    background-color: #595959;
+    background-color: #606060;
 }
 
 #twitter {
-    background-color: #2e2e2e;
+    background-color: #202020;
 }
 
 #twitter:hover {
-    background-color: #595959;
+    background-color: #606060;
 }
 
 #github {
-    background-color: #2e2e2e;
+    background-color: #202020;
 }
 
 #github:hover {
-    background-color: #595959;
+    background-color: #606060;
 }
 
 #footer {
-    background-color: #404040;
+    background-color: #363636;
 }
