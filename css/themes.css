@@ -7,10 +7,6 @@ body {
     background-color: #f0f0f0;
 }
 
-#home2 {
-	background-image: url("background-homeLight.jpg");
-}
-
 ::selection {
   background: #faab3460;
 }
@@ -82,10 +78,6 @@ body {
     body {
         background-color: #212121;
     }
-
-	#home2 {
-		background-image: url("background-homeDark.jpg");
-	}
 
     ::selection {
       background: #a751b260;

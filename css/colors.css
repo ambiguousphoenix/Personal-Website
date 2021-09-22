@@ -47,36 +47,36 @@
 	background-color: #595959;
 }
 
-#navbar-socialMedia {
+#socialMediaNavbar {
     background-color: #2e2e2e;
 }
 
 #socialMedia {
-    background: #181818c0;
+    background: #18181800;
 }
 
 #youtube {
-    background-color: #d4373700;
+    background-color: #2e2e2e;
 }
 
 #youtube:hover {
-    background-color: #d43737ff;
+    background-color: #595959;
 }
 
 #twitter {
-    background-color: #4e9ed500;
+    background-color: #2e2e2e;
 }
 
 #twitter:hover {
-    background-color: #4e9ed5ff;
+    background-color: #595959;
 }
 
 #github {
-    background-color: #80808000;
+    background-color: #2e2e2e;
 }
 
 #github:hover {
-    background-color: #808080ff;
+    background-color: #595959;
 }
 
 #footer {

@@ -63,6 +63,7 @@ img {
 }
 
 #home2 {
+	background-image: url("background-homeSheet.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -202,6 +203,11 @@ img {
     transform: scale(1);
 }
 
+.portal:active {
+    transform: scale(0.9);
+    transition: all 0.12s ease-out;
+}
+
 .portalImage {
     border-radius: 1.5rem;
     transition: all 0.27s ease-out;
@@ -231,7 +237,7 @@ img {
 }
 
 #navbar-logo:hover {
-	background-color: #303030;
+	background-color: #404040;
 }
 
 .navbar-logoImage {
@@ -299,13 +305,13 @@ img {
 	display: flex;
 }
 
-#navbar-socialMedia {
+#socialMediaNavbar {
     border-radius: 1.15rem;
     padding: 3px;
     width: auto;
     height: 50px;
 	margin-left: auto;
-    margin-right: 10px;
+    margin-right: 15px;
     user-select: none;
 }
 
