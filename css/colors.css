@@ -3,6 +3,26 @@
 
 /* ---------- COLORS ---------- */
 
+body {
+    background-color: #29252a;
+}
+
+::selection {
+    background: #a751b260;
+}
+
+.bgColor-primary {
+    background-color: #212121;
+}
+
+.bgColor-secondary {
+    background-color: #303030;
+}
+
+.bgColor-white {
+    background-color: #e0e0e0;
+}
+
 .bgColor-lightGrey {
     background-color: #e0e0e0;
 }
@@ -11,12 +31,24 @@
     background-color: #202020;
 }
 
+.bgColor-blueGrey {
+    background-color: #353a3c;
+}
+
+.bgColor-purpleGrey {
+    background-color: #29252a;
+}
+
 .bgColor-black {
     background-color: #000000;
 }
 
-.bgColor-DEV {
-    background-color: #f0a0a0;
+.textColor-primary {
+    color: #f0f0f0;
+}
+
+.textColor-secondary {
+    color: #b0b0b0;
 }
 
 .textColor-white {
@@ -29,6 +61,42 @@
 
 .textColor-black {
     color: #000000;
+}
+
+.header-fade {
+    background: linear-gradient(to bottom, #29252a00, #29252aff);
+}
+
+.card {
+    background-color: #373138;
+}
+
+.cardPhotography {
+    background-color: #262626;
+}
+
+.cardPhotography-description {
+    background-color: #463f47;
+}
+
+.card-image {
+    background-color: #302b30;
+}
+
+.extButtonSub {
+    background-color: #504952;
+}
+
+.extButtonSub:hover {
+    background-color: #655b66;
+}
+
+.cardPhotography-metadataSubIcon {
+    filter: invert(1);
+}
+
+.gallery-section {
+    background-color: #29252a;
 }
 
 #navbarDesktop {
@@ -47,35 +115,27 @@
 	background-color: #606060;
 }
 
+#socialMediaHome {
+    background: #202020;
+}
+
 #socialMediaNavbar {
     background-color: #202020;
 }
 
-#socialMedia {
-    background: #18181800;
-}
-
-#youtube {
+#socialMedia1 {
     background-color: #202020;
 }
 
-#youtube:hover {
+#socialMedia1:hover {
     background-color: #606060;
 }
 
-#twitter {
+#socialMedia2 {
     background-color: #202020;
 }
 
-#twitter:hover {
-    background-color: #606060;
-}
-
-#github {
-    background-color: #202020;
-}
-
-#github:hover {
+#socialMedia2:hover {
     background-color: #606060;
 }
 

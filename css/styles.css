@@ -10,7 +10,7 @@
 
 body {
     opacity: 0;
-    transition: opacity 0.67s;
+    transition: opacity 0.8s;
     transition-delay: 0.1s;
     margin: 0;
     min-width: 360px;
@@ -63,11 +63,15 @@ img {
 }
 
 #home2 {
-	background-image: url("background-homeSheet.jpg");
+	background-image: url("background-homeBlur.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#home3 {
+	background-image: url("background-homeNoise.png");
 }
 
 #featureContent {
@@ -95,7 +99,7 @@ img {
     border-radius: 100%;
     animation-name: avatarFadeIn1;
     animation-duration: 1.2s;
-    animation-delay: 0.35s;
+    animation-delay: 0.65s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier();
     animation-fill-mode: forwards;
@@ -110,7 +114,7 @@ img {
     border-radius: 100%;
     animation-name: avatarFadeIn2;
     animation-duration: 1s;
-    animation-delay: 0.35s;
+    animation-delay: 0.65s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier();
     animation-fill-mode: forwards;
@@ -124,7 +128,7 @@ img {
     margin-bottom: 50px;
     animation-name: avatarFadeIn3;
     animation-duration: 0.8s;
-    animation-delay: 0.25s;
+    animation-delay: 0.55s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier();
     animation-fill-mode: forwards;
@@ -166,19 +170,12 @@ img {
     font-size: 2rem;
     font-weight: 700;
     line-height: 100%;
-    color: #fff;
+    color: #ffffff;
 }
 
-.featureSubtitle {
-    margin-top: 0.75rem;
-    font-size: 1.25rem;
-    line-height: 100%;
-    color: #fff;
-}
-
-#socialMedia {
-    border-radius: 1.15rem;
-    padding: 3px;
+#socialMediaHome {
+    border-radius: 5rem;
+    padding: 5px;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -187,6 +184,16 @@ img {
     margin-left: auto;
     user-select: none;
     transform: scale(0.9);
+}
+
+#socialMediaNavbar {
+    border-radius: 1.15rem;
+    padding: 3px;
+    width: auto;
+    height: 50px;
+	margin-left: auto;
+    margin-right: 15px;
+    user-select: none;
 }
 
 
@@ -305,16 +312,6 @@ img {
 	display: flex;
 }
 
-#socialMediaNavbar {
-    border-radius: 1.15rem;
-    padding: 3px;
-    width: auto;
-    height: 50px;
-	margin-left: auto;
-    margin-right: 15px;
-    user-select: none;
-}
-
 #footer {
     width: auto;
     height: 35px;
@@ -330,48 +327,47 @@ img {
 
 /* ---------- SOCIAL MEDIA ---------- */
 
-#youtube {
+#socialMedia1 {
+    border-radius: 10rem;
     float: left;
     width: 60px;
-    height: 44px;
-    border-radius: 1rem;
+    height: 60px;
     transition: all 0.2s ease-out;
     object-fit: contain;
 }
 
-#youtube:hover{
+#socialMedia1:hover{
     object-fit: contain;
 }
 
-#twitter {
+#socialMedia2 {
+    border-radius: 1rem;
     float: left;
     width: 60px;
     height: 44px;
-	margin-left: 3px;
-    border-radius: 1rem;
     transition: all 0.2s ease-out;
     object-fit: contain;
 }
 
-#twitter:hover{
+#socialMedia2:hover{
     object-fit: contain;
 }
 
-#github {
-    float: left;
+.socialMediaIcon1 {
+	filter: invert();
+    padding: 12px;
     width: 60px;
-    height: 44px;
-	margin-left: 3px;
-    border-radius: 1rem;
+    height: 60px;
+    user-select: none;
+    pointer-events: auto !important;
     transition: all 0.2s ease-out;
-    object-fit: contain;
 }
 
-#github:hover{
-    object-fit: contain;
+.socialMediaIcon1:hover {
+    padding: 17px;
 }
 
-.socialMediaIcon {
+.socialMediaIcon2 {
 	filter: invert();
     padding: 11px;
     width: 60px;
@@ -381,7 +377,7 @@ img {
     transition: all 0.2s ease-out;
 }
 
-.socialMediaIcon:hover {
+.socialMediaIcon2:hover {
     padding: 14px;
 }
 
@@ -407,7 +403,7 @@ img {
 }
 
 .page-background-blank {
-    background-color: #808080;
+    background-color: #29252a;
 }
 
 
@@ -417,6 +413,7 @@ img {
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
+    box-shadow: 0rem 0.1rem 0.5rem #00000060;
     transform: scale(0.95);
 }
 
@@ -563,6 +560,21 @@ img {
 
 
 /* ---------- MISCELLANEOUS ---------- */
+
+.portalImage {
+	box-shadow: 0rem 0.1rem 0.5rem #00000030;
+	filter: saturate(0);
+}
+
+.portal:hover > .portalImage {
+	box-shadow: 0rem 0.15rem 2rem #00000070;
+	filter: saturate(1);
+}
+
+.portal:active > .portalImage {
+	box-shadow: 0rem 0.1rem 0.5rem #00000030;
+	filter: saturate(1);
+}
 
 .page-header {
     font-size: 3rem;
@@ -775,18 +787,4 @@ img {
         flex: 0 0 auto;
         width: 33%;
     }
-}
-
-
-
-
-
-.portalImage {
-	box-shadow: 0rem 0.1rem 0.5rem #00000030;
-	filter: saturate(0);
-}
-
-.portal:hover > .portalImage {
-	box-shadow: 0rem 0.15rem 2rem #00000070;
-	filter: saturate(1);
 }
