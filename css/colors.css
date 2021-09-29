@@ -67,6 +67,10 @@ body {
     background: linear-gradient(to bottom, #29252a00, #29252aff);
 }
 
+.header-fadeLight {
+    background: linear-gradient(to bottom, #dddddd00, #ddddddff);
+}
+
 .announcement {
     background-color: #39353b;
 }
