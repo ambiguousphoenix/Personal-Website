@@ -409,6 +409,13 @@ img {
 
 /* ---------- STANDARD CARDS ---------- */
 
+.announcement {
+	min-height: 100px;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+
 .card {
     padding: 1rem;
     border-radius: 1.5rem;
@@ -666,6 +673,11 @@ img {
 	margin-left: calc(var(--bs-gutter-x) * -.10);
 }
 
+.column1 {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
 .column2 {
     flex: 0 0 auto;
     width: 100%;
@@ -707,6 +719,11 @@ img {
 
     #socialMedia {
         transform: scale(1);
+    }
+
+    .column1 {
+        flex: 0 0 auto;
+        width: 100%;
     }
 
     .column2 {
@@ -755,6 +772,12 @@ img {
     .containerHOME {
         max-width: 1000px;
     }
+
+    .column1 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
     .column2 {
         flex: 0 0 auto;
         width: 50%;
@@ -778,6 +801,12 @@ img {
     .containerHOME {
         max-width: 1500px;
     }
+
+    .column1 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
     .column2 {
         flex: 0 0 auto;
         width: 50%;
@@ -785,6 +814,6 @@ img {
 
     .column3 {
         flex: 0 0 auto;
-        width: 33%;
+        width: 33.33%;
     }
 }

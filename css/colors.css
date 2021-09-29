@@ -67,6 +67,10 @@ body {
     background: linear-gradient(to bottom, #29252a00, #29252aff);
 }
 
+.announcement {
+    background-color: #39353b;
+}
+
 .card {
     background-color: #373138;
 }
