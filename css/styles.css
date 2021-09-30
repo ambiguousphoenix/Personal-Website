@@ -428,6 +428,46 @@ img {
     transform: scale(0.95);
 }
 
+.card-Major {
+	display: flex;
+	height: 10rem;
+    border-radius: 4rem;
+    border: none;
+    user-select: none;
+    box-shadow: 0rem 0.1rem 0.5rem #00000060;
+    transform: scale(0.93);
+    transition: all 0.27s ease-out;
+}
+
+.card-Major:hover {
+    transform: scale(1);
+	filter: brightness(1.33);
+	box-shadow: 0rem 0.15rem 1rem #00000070;
+}
+
+.card-Major:active {
+    transform: scale(0.9);
+	filter: brightness(1.33);
+    box-shadow: 0rem 0.1rem 0.5rem #00000060;
+    transition: all 0.12s ease-out;
+}
+
+.card-MajorImage {
+	margin: 2rem;
+	margin-right: 0px;
+	width: 6rem;
+	height: 6rem;
+	filter: invert();
+}
+
+.card-MajorText {
+	font-size: 2rem;
+    font-weight: 700;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 1rem;
+}
+
 .cardSketches {
 	padding: 0px !important;
 	margin: 8px !important;
