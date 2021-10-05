@@ -431,8 +431,8 @@ class VanillaTilt {
    */
   extendSettings(settings) {
     let defaultSettings = {
-      reverse: false,
-      max: 15,
+      reverse: true,
+      max: 0,
       startX: 0,
       startY: 0,
       perspective: 1000,
@@ -441,8 +441,8 @@ class VanillaTilt {
       speed: 300,
       transition: true,
       axis: null,
-      glare: false,
-      "max-glare": 1,
+      glare: true,
+      "max-glare": 0.7,
       "glare-prerender": false,
       "full-page-listening": false,
       "mouse-event-element": null,

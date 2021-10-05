@@ -235,11 +235,15 @@ img {
     position: relative;
     border-radius: 1.5rem;
     transform: scale(0.93);
-    transition: all 0.27s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .portal:hover {
     transform: scale(1);
+}
+
+.portal:hover > .portalImageOverlay {
+    opacity: 75%;
 }
 
 .portal:active {
@@ -248,7 +252,12 @@ img {
 }
 
 .portalImage {
-    transition: all 0.27s ease-out;
+    border-radius: 1.5rem;
+    transition: all 0.2s ease-out;
+}
+
+.portalImageOverlay {
+    opacity: 0%;
 }
 
 
@@ -455,31 +464,31 @@ img {
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
-    box-shadow: 0rem 0.1rem 0.5rem #00000060;
+    box-shadow: 0rem 0.1rem 0.5rem #00000050;
     transform: scale(0.95);
 }
 
 .card-Major {
 	display: flex;
 	height: 10rem;
-    border-radius: 4rem;
+    border-radius: 500px;
     border: none;
     user-select: none;
-    box-shadow: 0rem 0.1rem 0.5rem #00000060;
+    box-shadow: 0rem 0.1rem 0.5rem #00000040;
     transform: scale(0.93);
-    transition: all 0.27s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .card-Major:hover {
     transform: scale(1);
 	filter: brightness(1.33);
-	box-shadow: 0rem 0.15rem 1rem #00000070;
+	box-shadow: 0rem 0.15rem 1.2rem #00000050;
 }
 
 .card-Major:active {
     transform: scale(0.9);
 	filter: brightness(1.33);
-    box-shadow: 0rem 0.1rem 0.5rem #00000060;
+    box-shadow: 0rem 0.1rem 0.5rem #00000050;
     transition: all 0.12s ease-out;
 }
 
@@ -660,17 +669,25 @@ img {
 /* ---------- MISCELLANEOUS ---------- */
 
 .portalImage {
-	box-shadow: 0rem 0.1rem 0.5rem #00000030;
+	box-shadow: 0rem 0.1rem 0.5rem #00000040;
 	filter: saturate(0);
 }
 
+.portalImageOverlay {
+    opacity: 0%;
+}
+
 .portal:hover > .portalImage {
-	box-shadow: 0rem 0.15rem 2rem #00000070;
+	box-shadow: 0rem 0.15rem 1.2rem #00000050;
 	filter: saturate(1);
 }
 
+.portal:hover > .portalImageOverlay {
+    opacity: 75%;
+}
+
 .portal:active > .portalImage {
-	box-shadow: 0rem 0.1rem 0.5rem #00000030;
+	box-shadow: 0rem 0.1rem 0.4rem #00000020;
 	filter: saturate(1);
 }
 
@@ -720,7 +737,7 @@ img {
 .section-heading {
     text-align: center;
     font-weight: 700;
-    font-size: 2.75rem;
+    font-size: 1.8rem;
     margin-bottom: 4rem;
 }
 
@@ -787,6 +804,7 @@ img {
 }
 
 .column2-cyberthugA {
+    display: flex;
     flex: 0 0 auto;
     width: 100%;
 	border-radius: 50rem;
@@ -807,7 +825,24 @@ img {
     width: 100%;
 }
 
+.column2-cyberthugA-image {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 520px) {
+    .column2-cyberthugA-image {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .container {
         max-width: 500px;
@@ -873,10 +908,22 @@ img {
 }
 
 @media (min-width: 960px) {
+    .column2-cyberthugA-image {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 500px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 	.page-background {
 		height: 18em;
 	}
+
+    .section-heading {
+        font-size: 2.2rem;
+    }
 
 	.avatarContainer {
 		width: 400px;
@@ -900,6 +947,7 @@ img {
 	#navbarMobile {
 		display: none;
 	}
+
     .container {
         max-width: 940px;
     }
@@ -945,6 +993,15 @@ img {
 }
 
 @media (min-width: 1440px) {
+    .column2-cyberthugA-image {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 500px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .container {
         max-width: 1420px;
     }

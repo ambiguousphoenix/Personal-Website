@@ -80,7 +80,11 @@ body {
 }
 
 .card-Major {
-    background-color: #353a3c;
+    background-color: #ffffff10;
+}
+
+.card-Major:hover {
+    background-color: #ffffff30;
 }
 
 .cardPhotography {
