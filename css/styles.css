@@ -62,6 +62,20 @@ img {
     pointer-events: none;
 }
 
+.featureCyberthug {
+    height: 100vh;
+    padding-top: 25vh;
+    min-height: 1000px;
+    position: relative;
+    background-image: url("background-cyberthug.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: text;
+    pointer-events: none;
+}
+
 #home2 {
 	background-image: url("background-homeBlur.jpg");
     background-attachment: fixed;
@@ -71,7 +85,19 @@ img {
 }
 
 #home3 {
-	background-image: url("background-homeNoise.png");
+	background-image: url("background-Noise.png");
+}
+
+#cyberthug2 {
+	background-image: url("background-cyberthugBlur.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cyberthug3 {
+	background-image: url("background-Noise.png");
 }
 
 #featureContent {
@@ -173,6 +199,12 @@ img {
     color: #ffffff;
 }
 
+.featureTitleCyberthug {
+	width: 60%;
+	margin-top: 2rem;
+    color: #ffffff;
+}
+
 #socialMediaHome {
     border-radius: 5rem;
     padding: 5px;
@@ -216,7 +248,6 @@ img {
 }
 
 .portalImage {
-    border-radius: 1.5rem;
     transition: all 0.27s ease-out;
 }
 
@@ -680,6 +711,12 @@ img {
     padding-right: 0.33rem;
 }
 
+.cyberthug-section {
+    padding-top: 6rem;
+    padding-left: 0.33rem;
+    padding-right: 0.33rem;
+}
+
 .section-heading {
     text-align: center;
     font-weight: 700;
@@ -749,6 +786,17 @@ img {
     width: 100%;
 }
 
+.column2-cyberthugA {
+    flex: 0 0 auto;
+    width: 100%;
+	border-radius: 50rem;
+}
+
+.column2-cyberthugB {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
 .column3 {
     flex: 0 0 auto;
     width: 100%;
@@ -801,6 +849,17 @@ img {
         flex: 0 0 auto;
         width: 100%;
     }
+
+	.column2-cyberthugA {
+	    flex: 0 0 auto;
+	    width: 100%;
+		border-radius: 50rem;
+	}
+
+	.column2-cyberthugB {
+	    flex: 0 0 auto;
+	    width: 100%;
+	}
 
     .column3 {
         flex: 0 0 auto;
@@ -859,6 +918,17 @@ img {
         width: 50%;
     }
 
+	.column2-cyberthugA {
+	    flex: 0 0 auto;
+	    width: 40%;
+		border-radius: 50rem;
+	}
+
+	.column2-cyberthugB {
+	    flex: 0 0 auto;
+	    width: 60%;
+	}
+
     .column3 {
         flex: 0 0 auto;
         width: 50%;
@@ -892,6 +962,17 @@ img {
         flex: 0 0 auto;
         width: 50%;
     }
+
+	.column2-cyberthugA {
+	    flex: 0 0 auto;
+	    width: 30%;
+		border-radius: 50rem;
+	}
+
+	.column2-cyberthugB {
+	    flex: 0 0 auto;
+	    width: 70%;
+	}
 
     .column3 {
         flex: 0 0 auto;
