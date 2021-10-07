@@ -733,23 +733,20 @@ img {
 }
 
 .cardStandard-button {
+	width: auto;
     display: flex;
-    margin-top: 0.5rem;
+    padding: 0.5rem;
 }
 
 .cardStandard-buttonSub {
     background-color: #504952;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: 700;
-    width: 100%;
+	width: auto;
     height: 4rem;
     display: flex;
     border-radius: 1.5rem;
     transition: all 0.12s;
-    overflow: hidden;
     transition: all 0.1s ease-out;
 }
 
@@ -763,10 +760,10 @@ img {
 }
 
 .cardStandard-buttonSub-text {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: ;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 2rem;
     user-select: none;
 }
 
