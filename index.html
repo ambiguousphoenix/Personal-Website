@@ -6,61 +6,58 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/colors.css">
         <script src="js/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body id="page-top" style="background-color: #353a3c; background-image: url("background-home.jpg");" onload="document.body.style.opacity='1', avatar.hidden=false">
+    <body class="bgColor-blueGrey" onload="document.body.style.opacity='1', avatar.hidden=false">
 
         <!-- Feature section -->
-        <header class="feature textColor-white">
-            <div class="container" id="featureContent">
+        <section class="feature textColor-white" style="background-image: url('assets/images/index/background-home.jpg');">
+            <div class="container featureContent">
 
-                <div class="avatarContainer">
-					<img class="avatar1" src="assets/images/index/avatar1.png" onload="this.animation.avatarFadeIn"></img>
-					<img class="avatar2" src="assets/images/index/avatar2.png" onload="this.animation.avatarFadeIn"></img>
-					<img class="avatar3" src="assets/images/index/avatar3.png" onload="this.animation.avatarFadeIn"></img>
+                <div class="avatar">
+					<img class="avatar-image avatar-image1" src="assets/images/index/avatar1.png" onload="this.animation.avatarFadeIn"></img>
+					<img class="avatar-image avatar-image2" src="assets/images/index/avatar2.png" onload="this.animation.avatarFadeIn"></img>
+					<img class="avatar-image avatar-image3" src="assets/images/index/avatar3.png" onload="this.animation.avatarFadeIn"></img>
 				</div>
                 <span class="featureTitle">AmbiguousPhoenix</span>
 
                 <!-- Social media links -->
-                <div id="socialMediaHome">
-					<div id="socialMedia1">
+                <div class="socialMedia" style="margin-top: 2rem; margin-bottom: 0.5rem; margin-left: 0px; margin-right: 0px; transform: scale(1.2);">
+					<div class="socialMedia-youtube">
                         <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
-                            <img class="socialMediaIcon1" src="assets/youtube.svg"/>
+                            <img class="socialMediaImage" src="assets/youtube.svg"/>
                         </a>
                     </div>
-
-                    <div id="socialMedia1" style="margin-left: 5px;">
+                    <div class="socialMedia-twitter">
                         <a href="https://twitter.com/ambiguousfeenix">
-                            <img class="socialMediaIcon1" src="assets/twitter.svg"/>
+                            <img class="socialMediaImage" src="assets/twitter.svg"/>
                         </a>
                     </div>
-
-                    <div id="socialMedia1" style="margin-left: 5px;">
+                    <div class="socialMedia-github">
                         <a href="https://github.com/ambiguousphoenix">
-                            <img class="socialMediaIcon1" src="assets/github.svg"/>
+                            <img class="socialMediaImage" src="assets/github.svg"/>
                         </a>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
 
-		<div id="home2">
+		<div id="home2" style="background-image: url('assets/images/index/background-homeBlur.jpg');">
 
-            <div id="home3">
+            <div id="home3" style="background-image: url('assets/images/background-noise.png');">
 
 				<!-- Major projects section -->
-				<section class="page-section" style="padding-bottom: 2rem !important;">
+				<section style="padding-top: 1px;">
 		            <div class="container">
 		                <h2 class="section-heading textColor-secondary">MAJOR PROJECTS</h2>
-		                <div class="row-portfolio">
+		                <div class="row">
 
 								<div class="column3">
 	                                <a href="cyberthug.html">
-										<div class="glassButton">
+										<div class="glassButton glassButtonHome">
 					                        <img class="glassButton-image" src="assets/cyberthug.svg"/>
 	                                        <img class="glassButton-overlay" src="assets/images/glass-overlay.png"/>
 					                        <img src="assets/cyberthugLogoName.svg" style="height: 3rem; margin-top: auto; margin-bottom: auto; filter: invert();"/>
@@ -73,16 +70,16 @@
 		        </section>
 
                 <!-- Portfolio section -->
-                <section class="page-section">
+                <section style="padding-bottom: 8rem;">
                     <div class="container">
                         <h2 class="section-heading textColor-lightGrey">PORTFOLIO</h2>
-                        <div class="row-portfolio">
+                        <div class="row">
 
                             <div class="column3" style="padding: 0.5rem;">
                                 <a href="school.html">
-                                    <div class="portal">
-                                        <img class="portalImage img-fluid" src="assets/images/index/portfolio-school.jpg" style="position: absolute;"/>
-	                                    <img class="portalImage portalImageOverlay img-fluid" src="assets/images/portal-overlay.png"/>
+                                    <div class="portfolio">
+                                        <img class="portfolio-image img-fluid" src="assets/images/index/portfolio-school.jpg" style="position: absolute;"/>
+	                                    <img class="portfolio-image portfolio-overlay img-fluid" src="assets/images/portal-overlay.png"/>
                                         <div class="portalLabel textColor-white">
                                             <span style="display: block; text-align: center; margin-top: 0.5rem;">School</span>
                                         </div>
@@ -92,9 +89,9 @@
 
                             <div class="column3" style="padding: 0.5rem;">
                                 <a href="photos.html">
-                                    <div class="portal">
-                                        <img class="portalImage img-fluid" src="assets/images/index/portfolio-photos.jpg" style="position: absolute;"/>
-                                        <img class="portalImage portalImageOverlay img-fluid" src="assets/images/portal-overlay.png"/>
+                                    <div class="portfolio">
+                                        <img class="portfolio-image img-fluid" src="assets/images/index/portfolio-photos.jpg" style="position: absolute;"/>
+                                        <img class="portfolio-image portfolio-overlay img-fluid" src="assets/images/portal-overlay.png"/>
                                         <div class="portalLabel textColor-white">
                                             <span style="display: block; text-align: center; margin-top: 0.5rem;">Photos</span>
                                         </div>
@@ -104,35 +101,11 @@
 
         					<div class="column3" style="padding: 0.5rem;">
                                 <a href="sketches.html">
-                                    <div class="portal">
-                                        <img class="portalImage img-fluid" src="assets/images/index/portfolio-sketches.jpg" style="position: absolute;"/>
-                                        <img class="portalImage portalImageOverlay img-fluid" src="assets/images/portal-overlay.png"/>
+                                    <div class="portfolio">
+                                        <img class="portfolio-image img-fluid" src="assets/images/index/portfolio-sketches.jpg" style="position: absolute;"/>
+                                        <img class="portfolio-image portfolio-overlay img-fluid" src="assets/images/portal-overlay.png"/>
                                         <div class="portalLabel textColor-white">
                                             <span style="display: block; text-align: center; margin-top: 0.5rem;">Sketches</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-        					<div class="column3" style="padding: 0.5rem;">
-                                <a href="physicalart.html">
-                                    <div class="portal">
-                                        <img class="portalImage img-fluid" src="assets/images/index/portfolio-physicalArt.jpg" style="position: absolute;"/>
-                                        <img class="portalImage portalImageOverlay img-fluid" src="assets/images/portal-overlay.png"/>
-                                        <div class="portalLabel textColor-white">
-                                            <span style="display: block; text-align: center; margin-top: 0.5rem;">Physical Art</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="column3" style="padding: 0.5rem;">
-                                <a href="digitalart.html">
-                                    <div class="portal">
-                                        <img class="portalImage img-fluid" src="assets/images/index/portfolio-digitalArt.jpg" style="position: absolute;"/>
-	                                    <img class="portalImage portalImageOverlay img-fluid" src="assets/images/portal-overlay.png"/>
-                                        <div class="portalLabel textColor-white">
-                                            <span style="display: block; text-align: center; margin-top: 0.5rem;">Digital Art</span>
                                         </div>
                                     </div>
                                 </a>
@@ -147,14 +120,11 @@
 		</div>
 
 
-        <!-- Copyright section -->
-        <div id="footer">
+        <!-- Copyright -->
+        <div class="footer">
             <div class="colorStrip"></div>
             <span class="copyright">&copy; AmbiguousPhoenix 2021</span>
         </div>
-
-
-		<script src="js/vanilla-tilt.js"></script>
 
     </body>
 </html>

@@ -6,61 +6,54 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/colors.css">
         <script src="js/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body id="page-top" onload="document.body.style.opacity='1'">
+    <body onload="document.body.style.opacity='1'">
 
-		<!-- Navbar Desktop-->
-        <nav id="navbarDesktop">
-			<div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute;">
-						<span>AmbiguousPhoenix</span>
-					</div></a>
+        <!-- Navbar Desktop-->
+        <nav class="navbarDesktop">
+            <div class="container-fluid" style="padding: 0px !important;">
+				<div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: 2px; height: 50px; background-color: #666666;"></div>
-				<a href="school.html">
-					<div class="navbar-link" style="margin-left: 0.75rem;">
-						<img class="navbar-linkIcon" src="assets/school.svg"/>
+				<div class="navbarDividerDesktop"></div>
+                <div class="navbarLinksDesktop">
+                    <a href="school.html">
+        				<div class="navbarLinks-link">
+        					<img class="navbarLinks-link-image" src="assets/school.svg"/>
+        				</div>
+                    </a>
+					<div class="navbarLinks-currentLink">
+						<img class="navbarLinks-currentLink-image" src="assets/photos.svg"/>
 					</div>
-				</a>
-				<div class="navbar-linkDisabled" style="padding: 10px;">
-					<img class="navbar-linkIconDisabled" src="assets/photos.svg"/>
-				</div>
-				<a href="sketches.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/OLDpencil.svg"/>
-					</div>
-				</a>
-				<a href="physicalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-					</div>
-				</a>
-				<a href="digitalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/renders.svg"/>
-					</div>
-				</a>
-                <div id="socialMediaNavbar">
-					<div id="socialMedia2">
+    				<a href="sketches.html">
+    					<div class="navbarLinks-link">
+    						<img class="navbarLinks-link-image" src="assets/OLDpencil.svg"/>
+    					</div>
+    				</a>
+                </div>
+                <div class="socialMedia">
+					<div class="socialMedia-youtube">
                         <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
-                            <img class="socialMediaIcon2" src="assets/youtube.svg"/>
+                            <img class="socialMediaImage" src="assets/youtube.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-twitter">
                         <a href="https://twitter.com/ambiguousfeenix">
-                            <img class="socialMediaIcon2" src="assets/twitter.svg"/>
+                            <img class="socialMediaImage" src="assets/twitter.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-github">
                         <a href="https://github.com/ambiguousphoenix">
-                            <img class="socialMediaIcon2" src="assets/github.svg"/>
+                            <img class="socialMediaImage" src="assets/github.svg"/>
                         </a>
                     </div>
                 </div>
@@ -69,247 +62,295 @@
 
 
 		<!-- Navbar Mobile -->
-        <nav id="navbarMobile">
-			<div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo" style="width: 100vw !important;">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute; width: 100vw !important;">
-						<span style="margin-left: auto; margin-right: auto;">AmbiguousPhoenix</span>
-					</div></a>
+        <nav class="navbarMobile">
+            <div class="container-fluid" style="padding: 0px !important;">
+                <div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: auto; height: 2px; background-color: #666666;"></div>
-				<div style="display: flex; flex-direction: row; padding: 0.25rem;">
-					<a href="school.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/school.svg"/>
-						</div>
+				<div class="navbarDividerMobile"></div>
+                <div class="navbarLinksMobile" style="height: 80px;">
+                    <a href="school.html">
+    					<div class="navbarLinks-link" style="border-radius: 0rem !important;">
+    						<img class="navbarLinks-link-image" src="assets/school.svg"/>
+    					</div>
 					</a>
-					<div class="navbar-linkDisabled" style="padding: 10px;">
-						<img class="navbar-linkIconDisabled" src="assets/photos.svg"/>
+					<div class="navbarLinks-currentLink" style="border-radius: 0rem !important;">
+						<img class="navbarLinks-currentLink-image" src="assets/photos.svg"/>
 					</div>
 					<a href="sketches.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/OLDpencil.svg"/>
+						<div class="navbarLinks-link" style="border-radius: 0rem !important;">
+							<img class="navbarLinks-link-image" src="assets/OLDpencil.svg"/>
 						</div>
 					</a>
-					<a href="physicalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-						</div>
-					</a>
-					<a href="digitalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/renders.svg"/>
-						</div>
-					</a>
-				</div>
+                </div>
             </div>
         </nav>
+
+
         <div class="colorStrip"></div>
 
 
         <!-- Header -->
-        <div class="page-background page-background-photography" style="flex-direction: column;">
-            <div class="header-fade">
-                <span class="page-header"><strong>PHOTOS</strong></span>
+        <div class="pageBanner" style="background-image: url('assets/images/photos/header-photos.jpg');">
+            <div class="pageBanner-fade">
+                <span class="pageBanner-text"><strong>PHOTOS</strong></span>
             </div>
         </div>
 
 
         <!-- 2020 section -->
 
-        <section class="gallery-section">
+        <section>
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2020</h2>
                 <div class="row">
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-082.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-082.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/2 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/4.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    3200
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-078.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-078.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/3 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/4
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1600
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-075.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-075.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    - - -
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    - - -
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    - - -
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-070.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-070.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/1600 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/8
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    400
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-067.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-067.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/50 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/4.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    3200
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-065.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-065.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/1400 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/1.6
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    50
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-063.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-063.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/50 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/3.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    400
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-040.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-040.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/100 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/3.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1000
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2020-039.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2020-039.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/400 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/11
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    400
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -319,135 +360,171 @@
 
         <!-- 2019 section -->
 
-        <section class="gallery-section">
+        <section>
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2019</h2>
                 <div class="row">
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-012.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-012.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/250 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/4.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-011.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-011.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/250 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/2.8
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-009.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-009.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/200 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/2
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    800
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-008.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-008.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/200 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/2
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    800
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-002.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-002.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/50 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/11
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2019-001.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2019-001.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/400 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/3.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1600
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -457,135 +534,165 @@
 
         <!-- 2018 section -->
 
-        <section class="gallery-section" style="padding-bottom: 6rem;">
+        <section style="padding-bottom: 6rem;">
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2018</h2>
                 <div class="row">
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-024.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-024.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/4 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1000
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-021.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-021.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    0.8 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/4
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-018.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-018.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/8 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/8
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    500
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-014.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-014.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/125 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/3.5
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-008.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-008.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    1/400 sec
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    f/9
+                                </span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">
+                                    100
+                                </span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
-					<div class="column3 card" style="padding: 0 !important;">
-                        <img class="cardPhotography-image" src="assets/images/photography/2018-007.jpg"/>
+					<div class="column3 cardPhotography" style="padding: 0 !important;">
+                        <img class="cardPhotography-image" src="assets/images/photos/2018-007.jpg"/>
                         <div class="cardPhotography-metadata textColor-lightGrey">
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/shutter.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/shutter.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">1 min, 59 sec</span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/aperture.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/aperture.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">f/7.1</span>
                             </div>
                             <div class="cardPhotography-metadataSub">
-                                <img class="cardPhotography-metadataSubIcon" src="assets/iso.svg"/>
-                                <span class="cardPhotography-metadataSubText textColor-secondary">- - -</span>
+                                <img class="cardPhotography-metadataSub-image" src="assets/iso.svg"/>
+                                <span class="cardPhotography-metadataSub-text textColor-secondary">800</span>
                             </div>
                         </div>
-                        <div class="cardPhotography-description textColor-primary">
+                        <!-- <div class="cardPhotography-description textColor-primary">
                             <span>Description</span>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -593,8 +700,8 @@
         </section>
 
 
-        <!-- Copyright section -->
-        <div id="footer">
+        <!-- Copyright -->
+        <div class="footer">
             <div class="colorStrip"></div>
             <span class="copyright">&copy; AmbiguousPhoenix 2021</span>
         </div>

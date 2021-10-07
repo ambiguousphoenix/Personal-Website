@@ -6,61 +6,54 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/colors.css">
         <script src="js/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body id="page-top" onload="document.body.style.opacity='1'">
+    <body onload="document.body.style.opacity='1'">
 
         <!-- Navbar Desktop-->
-        <nav id="navbarDesktop">
+        <nav class="navbarDesktop">
             <div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute;">
-						<span>AmbiguousPhoenix</span>
-					</div></a>
+				<div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: 2px; height: 50px; background-color: #666666;"></div>
-				<div class="navbar-linkDisabled" style="margin-left: 0.75rem; padding: 10px;">
-					<img class="navbar-linkIconDisabled" src="assets/school.svg"/>
-				</div>
-				<a href="photos.html">
-					<div  class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/photos.svg"/>
-					</div>
-				</a>
-				<a href="sketches.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/OLDpencil.svg"/>
-					</div>
-				</a>
-				<a href="physicalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-					</div>
-				</a>
-				<a href="digitalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/renders.svg"/>
-					</div>
-				</a>
-                <div id="socialMediaNavbar">
-					<div id="socialMedia2">
+				<div class="navbarDividerDesktop"></div>
+                <div class="navbarLinksDesktop">
+    				<div class="navbarLinks-currentLink">
+    					<img class="navbarLinks-currentLink-image" src="assets/school.svg"/>
+    				</div>
+    				<a href="photos.html">
+    					<div class="navbarLinks-link">
+    						<img class="navbarLinks-link-image" src="assets/photos.svg"/>
+    					</div>
+    				</a>
+    				<a href="sketches.html">
+    					<div class="navbarLinks-link">
+    						<img class="navbarLinks-link-image" src="assets/OLDpencil.svg"/>
+    					</div>
+    				</a>
+                </div>
+                <div class="socialMedia">
+					<div class="socialMedia-youtube">
                         <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
-                            <img class="socialMediaIcon2" src="assets/youtube.svg"/>
+                            <img class="socialMediaImage" src="assets/youtube.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-twitter">
                         <a href="https://twitter.com/ambiguousfeenix">
-                            <img class="socialMediaIcon2" src="assets/twitter.svg"/>
+                            <img class="socialMediaImage" src="assets/twitter.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-github">
                         <a href="https://github.com/ambiguousphoenix">
-                            <img class="socialMediaIcon2" src="assets/github.svg"/>
+                            <img class="socialMediaImage" src="assets/github.svg"/>
                         </a>
                     </div>
                 </div>
@@ -69,103 +62,98 @@
 
 
 		<!-- Navbar Mobile -->
-        <nav id="navbarMobile">
+        <nav class="navbarMobile">
             <div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo" style="">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute; width: 100vw !important;">
-						<span style="margin-left: auto; margin-right: auto;">AmbiguousPhoenix</span>
-					</div></a>
+                <div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: auto; height: 2px; background-color: #666666;"></div>
-				<div style="display: flex; flex-direction: row; padding-left: 0.25rem; padding-right: 0.25rem; margin-left: 0.25rem;">
-					<div class="navbar-linkDisabled" style="padding: 10px;">
-						<img class="navbar-linkIconDisabled" src="assets/school.svg"/>
+				<div class="navbarDividerMobile"></div>
+                <div class="navbarLinksMobile" style="height: 80px;">
+					<div class="navbarLinks-currentLink" style="border-radius: 0rem !important;">
+						<img class="navbarLinks-currentLink-image" src="assets/school.svg"/>
 					</div>
 					<a href="photos.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/photos.svg"/>
+						<div class="navbarLinks-link" style="border-radius: 0rem !important;">
+							<img class="navbarLinks-link-image" src="assets/photos.svg"/>
 						</div>
 					</a>
 					<a href="sketches.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/OLDpencil.svg"/>
+						<div class="navbarLinks-link" style="border-radius: 0rem !important;">
+							<img class="navbarLinks-link-image" src="assets/OLDpencil.svg"/>
 						</div>
 					</a>
-					<a href="physicalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-						</div>
-					</a>
-					<a href="digitalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/renders.svg"/>
-						</div>
-					</a>
-				</div>
+                </div>
             </div>
         </nav>
+
+
         <div class="colorStrip"></div>
 
 
         <!-- Header -->
-        <div class="page-background page-background-school" style="flex-direction: column;">
-            <div class="header-fade">
-                <span class="page-header"><strong>SCHOOL</strong></span>
+        <div class="pageBanner" style="background-image: url('assets/images/school/header-school.jpg');">
+            <div class="pageBanner-fade">
+                <span class="pageBanner-text"><strong>SCHOOL</strong></span>
             </div>
         </div>
 
-		<!-- 2021 section -->
-        <section class="gallery-section">
+
+		<!-- 2021 -->
+        <section>
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2021</h2>
                 <div class="row">
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Cyberthug Core (Prototype)</span>
-                        <p class="card-subtitle textColor-secondary">Applied Media Studio - Semester 2, 2021</p>
-                        <img class="card-image" src="assets/images/school/cyberthugCore.jpg"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Cyberthug Core (Prototype)</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Applied Media Studio - Semester 2, 2021</p>
+                        <img class="cardStandard-image" src="assets/images/school/cyberthugCore.jpg"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This is the artificial intelligence that governs the Cyberthug civilisation. Only those it deems worthy enough are able to access its chamber and advise it on how to improve things.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Loops on a Theme (Prototype)</span>
-                        <p class="card-subtitle textColor-secondary">Creative Studio - Semester 2, 2021</p>
-                        <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/Vi_2rz8pawo?rel=0&loop=1&modestbranding=1"></iframe>
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Loops on a Theme (Prototype)</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Creative Studio - Semester 2, 2021</p>
+                        <div class="cardStandard-video">
+                            <iframe class="cardStandard-youtube" allowfullscreen src="https://www.youtube.com/embed/Vi_2rz8pawo?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
-                        <div class="card-description textColor-primary">
+                        <div class="cardStandard-description textColor-primary">
                             <span>This paper required making animations that were a combination of a theme chosen by the student and themes provided weekly by the tutor. I chose "calm" as my overall theme. These are only the draft versions but the refined ones will be available later this year!</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Cyberthug</span>
-                        <p class="card-subtitle textColor-secondary">Applied Media Studio - Semester 1, 2021</p>
-                        <img class="card-image" src="assets/images/school/cyberthug.jpg"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Cyberthug</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Applied Media Studio - Semester 1, 2021</p>
+                        <img class="cardStandard-image" src="assets/images/school/cyberthug.jpg"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This was a half-year project that involved creating a fictional species set in the future. The model shown above is a member of the Cyberthug race - humans that required artificial components to survive when the Earth's environment became toxic.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Animated Pepeha</span>
-                        <p class="card-subtitle textColor-secondary">Image Making Studio - Semester 1, 2021</p>
-                        <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/u0wxSIcb-mk?rel=0&loop=1&modestbranding=1"></iframe>
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Animated Pepeha</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Image Making Studio - Semester 1, 2021</p>
+                        <div class="cardStandard-video">
+                            <iframe class="cardStandard-youtube" allowfullscreen src="https://www.youtube.com/embed/u0wxSIcb-mk?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
-                        <div class="card-description textColor-primary">
+                        <div class="cardStandard-description textColor-primary">
                             <span>This short video was a compilation of various image making skills and visual techniques learnt throughout the paper. The focus was using them strategically to tell a narrative about your interests or life story.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Photocollage</span>
-                        <p class="card-subtitle textColor-secondary">Image Making Studio - Semester 1, 2021</p>
-                        <img class="card-image" src="assets/images/school/photocollage.png"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Photocollage</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Image Making Studio - Semester 1, 2021</p>
+                        <img class="cardStandard-image" src="assets/images/school/photocollage.png"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This was a fun one. It was about combining your interests/life story into a single image. The Zelda triforce and Mount Kaukau feature here because that's some of the stuff.</span>
                         </div>
                     </div>
@@ -174,23 +162,24 @@
             </div>
         </section>
 
-        <!-- 2019 section -->
-        <section class="gallery-section">
+
+        <!-- 2019 -->
+        <section>
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2019</h2>
                 <div class="row">
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Teleporter Website</span>
-                        <p class="card-subtitle textColor-secondary">Digital Studio - Semester 1, 2019</p>
-                        <img class="card-image" src="assets/images/school/teleporter.jpg"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Teleporter Website</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Digital Studio - Semester 1, 2019</p>
+                        <img class="cardStandard-image" src="assets/images/school/teleporter.jpg"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This assignment was about promoting a futuristic artefact made in Applied Media Studio through a website, which needed to be personally coded with HTML and CSS.</span>
                         </div>
-                        <div class="extButton">
-							<div class="extButtonSub" style="width: 100%;">
-                                <a href="files/2019teleporter/index.html" style="width: 100%;">
-                                    <span class="extButtonSub-text textColor-primary">View website</span>
+                        <div class="cardStandard-button">
+							<div class="cardStandard-buttonSub">
+                                <a href="files/2019-sem1-teleporter/index.html" style="width: 100%;">
+                                    <span class="cardStandard-buttonSub-text textColor-primary">View website</span>
                                 </a>
                             </div>
                         </div>
@@ -200,86 +189,87 @@
             </div>
         </section>
 
-        <!-- 2018 section -->
-        <section class="gallery-section" style="padding-bottom: 6rem;">
+
+        <!-- 2018 -->
+        <section style="padding-bottom: 6rem;">
             <div class="container">
                 <h2 class="section-heading textColor-secondary">2018</h2>
                 <div class="row">
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Dystopian City</span>
-                        <p class="card-subtitle textColor-secondary">Image Making Studio - Semester 2, 2018</p>
-                        <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/UH1qVguADms?rel=0&loop=1&modestbranding=1"></iframe>
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Dystopian City</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Image Making Studio - Semester 2, 2018</p>
+                        <div class="cardStandard-video">
+                            <iframe class="cardStandard-youtube" allowfullscreen src="https://www.youtube.com/embed/UH1qVguADms?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
-                        <div class="card-description textColor-primary">
+                        <div class="cardStandard-description textColor-primary">
                             <span>This was a cinematic video that used footage of buildings created earlier in the semester against a green screen, which was then edited to create a dystopian city trailer. Everyone's hand-ins were shown in the school cinema because they're masterpieces.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Calendars</span>
-                        <p class="card-subtitle textColor-secondary">Design Studio - Semester 2, 2018</p>
-                        <img class="card-image" src="assets/images/school/calendars.png"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Calendars</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Design Studio - Semester 2, 2018</p>
+                        <img class="cardStandard-image" src="assets/images/school/calendars.png"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This was made by combining different forms of media to create a fresh calendar for the first half of 2019. The style of the bottom-right was inspired by Material Design. Photograms and 3D renders can be seen.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Principles of Animation</span>
-                        <p class="card-subtitle textColor-secondary">Image Making Studio - Semester 2, 2018</p>
-                        <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/VaP7TKZB_oo?rel=0&loop=1&modestbranding=1"></iframe>
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Principles of Animation</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Image Making Studio - Semester 2, 2018</p>
+                        <div class="cardStandard-video">
+                            <iframe class="cardStandard-youtube" allowfullscreen src="https://www.youtube.com/embed/VaP7TKZB_oo?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
-                        <div class="card-description textColor-primary">
+                        <div class="cardStandard-description textColor-primary">
                             <span>This assignment required a 3D animation that contained as many of the 12 principles of animation as possible (defined by Frank Thomas and Ollie Johnston).</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Music Video</span>
-                        <p class="card-subtitle textColor-secondary">Time-Based Studio - Semester 1, 2018</p>
-                        <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/-mgouKSpQoQ?rel=0&loop=1&modestbranding=1"></iframe>
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Music Video</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Time-Based Studio - Semester 1, 2018</p>
+                        <div class="cardStandard-video">
+                            <iframe class="cardStandard-youtube" allowfullscreen src="https://www.youtube.com/embed/-mgouKSpQoQ?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
-                        <div class="card-description textColor-primary">
+                        <div class="cardStandard-description textColor-primary">
                             <span>This assignment was about making a cinematic video of about 2 minutes that used DSLR skills creatively.</span>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Interest Zines</span>
-                        <p class="card-subtitle textColor-secondary">Design Studio - Semester 1, 2018</p>
-                        <img class="card-image" src="assets/images/school/zines.png"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Interest Zines</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Design Studio - Semester 1, 2018</p>
+                        <img class="cardStandard-image" src="assets/images/school/zines.png"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>These zines are about my (at the time) favourite interests, photography and video.</span>
                         </div>
-                        <div class="extButton">
-                            <div class="extButtonSub" style="width: 100%;">
+                        <div class="cardStandard-button">
+                            <div class="cardStandard-buttonSub">
                                 <a href="files/2018-sem1-zine1.pdf" style="width: 100%;">
-                                    <span class="extButtonSub-text textColor-primary">View zine 1</span>
+                                    <span class="cardStandard-buttonSub-text textColor-primary">View zine 1</span>
                                 </a>
                             </div>
-                            <div class="extButtonSub" style="width: 100%;">
+                            <div class="cardStandard-buttonSub">
                                 <a href="files/2018-sem1-zine2.pdf" style="width: 100%;">
-                                    <span class="extButtonSub-text textColor-primary">View zine 2</span>
+                                    <span class="cardStandard-buttonSub-text textColor-primary">View zine 2</span>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="column3 card">
-                        <span class="card-title textColor-primary">Multipage Website</span>
-                        <p class="card-subtitle textColor-secondary">Digital Studio - Semester 1, 2018</p>
-                        <img class="card-image" src="assets/images/school/multipage.jpg"/>
-                        <div class="card-description textColor-primary">
+                    <div class="column3 cardStandard">
+                        <span class="cardStandard-title textColor-primary">Multipage Website</span>
+                        <p class="cardStandard-subtitle textColor-secondary">Digital Studio - Semester 1, 2018</p>
+                        <img class="cardStandard-image" src="assets/images/school/multipage.jpg"/>
+                        <div class="cardStandard-description textColor-primary">
                             <span>This was one of my first assignments at Te Auaha. I think it just required some provided blocks of text that the visitor could navigate between.</span>
                         </div>
-                        <div class="extButton">
-                            <div class="extButtonSub" style="width: 100%;">
-                                <a href="files/2018multipage/index.html" style="width: 100%;">
-                                    <span class="extButtonSub-text textColor-primary">View website</span>
+                        <div class="cardStandard-button">
+                            <div class="cardStandard-buttonSub">
+                                <a href="files/2018-sem1-multipage/index.html" style="width: 100%;">
+                                    <span class="cardStandard-buttonSub-text textColor-primary">View website</span>
                                 </a>
                             </div>
                         </div>
@@ -290,8 +280,8 @@
         </section>
 
 
-        <!-- Copyright section -->
-        <div id="footer">
+        <!-- Copyright -->
+        <div class="footer">
             <div class="colorStrip"></div>
             <span class="copyright">&copy; AmbiguousPhoenix 2021</span>
         </div>

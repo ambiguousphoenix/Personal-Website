@@ -6,61 +6,54 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/colors.css">
         <script src="js/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body id="page-top" onload="document.body.style.opacity='1'">
+    <body class="bgColor-lightGrey" onload="document.body.style.opacity='1'">
 
-		<!-- Navbar Desktop-->
-        <nav id="navbarDesktop">
-			<div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute;">
-						<span>AmbiguousPhoenix</span>
-					</div></a>
+        <!-- Navbar Desktop-->
+        <nav class="navbarDesktop">
+            <div class="container-fluid" style="padding: 0px !important;">
+				<div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: 2px; height: 50px; background-color: #666666;"></div>
-				<a href="school.html">
-					<div class="navbar-link" style="margin-left: 0.75rem;">
-						<img class="navbar-linkIcon" src="assets/school.svg"/>
+				<div class="navbarDividerDesktop"></div>
+                <div class="navbarLinksDesktop">
+                    <a href="school.html">
+        				<div class="navbarLinks-link">
+        					<img class="navbarLinks-link-image" src="assets/school.svg"/>
+        				</div>
+                    </a>
+                    <a href="photos.html">
+    					<div class="navbarLinks-link">
+    						<img class="navbarLinks-link-image" src="assets/photos.svg"/>
+    					</div>
+                    </a>
+					<div class="navbarLinks-currentLink">
+						<img class="navbarLinks-currentLink-image" src="assets/OLDpencil.svg"/>
 					</div>
-				</a>
-				<a href="photos.html">
-					<div  class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/photos.svg"/>
-					</div>
-				</a>
-				<div class="navbar-linkDisabled" style="padding: 10px;">
-					<img class="navbar-linkIconDisabled" src="assets/OLDpencil.svg"/>
-				</div>
-				<a href="physicalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-					</div>
-				</a>
-				<a href="digitalart.html">
-					<div class="navbar-link">
-						<img class="navbar-linkIcon" src="assets/renders.svg"/>
-					</div>
-				</a>
-                <div id="socialMediaNavbar">
-					<div id="socialMedia2">
+                </div>
+                <div class="socialMedia">
+					<div class="socialMedia-youtube">
                         <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
-                            <img class="socialMediaIcon2" src="assets/youtube.svg"/>
+                            <img class="socialMediaImage" src="assets/youtube.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-twitter">
                         <a href="https://twitter.com/ambiguousfeenix">
-                            <img class="socialMediaIcon2" src="assets/twitter.svg"/>
+                            <img class="socialMediaImage" src="assets/twitter.svg"/>
                         </a>
                     </div>
-                    <div id="socialMedia2">
+                    <div class="socialMedia-github">
                         <a href="https://github.com/ambiguousphoenix">
-                            <img class="socialMediaIcon2" src="assets/github.svg"/>
+                            <img class="socialMediaImage" src="assets/github.svg"/>
                         </a>
                     </div>
                 </div>
@@ -69,57 +62,52 @@
 
 
 		<!-- Navbar Mobile -->
-        <nav id="navbarMobile">
-			<div class="container-fluid" style="padding: 0px !important;">
-				<div id="navbar-logo" style="width: 100vw !important;">
-					<img class="navbar-logoImage" src="assets/navbar-hexagonsColor.svg" style="position: absolute;"/>
-					<a href="index.html"><div class="navbar-text" style="position: absolute; width: 100vw !important;">
-						<span style="margin-left: auto; margin-right: auto;">AmbiguousPhoenix</span>
-					</div></a>
+        <nav class="navbarMobile">
+            <div class="container-fluid" style="padding: 0px !important;">
+                <div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbar-hexagonsColor.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
 				</div>
-				<div style="width: auto; height: 2px; background-color: #666666;"></div>
-				<div style="display: flex; flex-direction: row; padding: 0.25rem;">
-					<a href="school.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/school.svg"/>
-						</div>
-					</a>
+				<div class="navbarDividerMobile"></div>
+                <div class="navbarLinksMobile" style="height: 80px;">
+                    <a href="school.html">
+                        <div class="navbarLinks-link" style="border-radius: 0rem !important;">
+                            <img class="navbarLinks-link-image" src="assets/school.svg"/>
+                        </div>
+                    </a>
 					<a href="photos.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/photos.svg"/>
+						<div class="navbarLinks-link" style="border-radius: 0rem !important;">
+							<img class="navbarLinks-link-image" src="assets/photos.svg"/>
 						</div>
 					</a>
-					<div class="navbar-linkDisabled" style="padding: 10px;">
-						<img class="navbar-linkIconDisabled" src="assets/OLDpencil.svg"/>
+					<div class="navbarLinks-currentLink" style="border-radius: 0rem !important;">
+						<img class="navbarLinks-currentLink-image" src="assets/OLDpencil.svg"/>
 					</div>
-					<a href="physicalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/OLDeasel.svg"/>
-						</div>
-					</a>
-					<a href="digitalart.html">
-						<div class="navbar-link">
-							<img class="navbar-linkIcon" src="assets/renders.svg"/>
-						</div>
-					</a>
-				</div>
+                </div>
             </div>
         </nav>
+
+
         <div class="colorStrip"></div>
 
 
-		<!-- Header -->
-        <div class="page-background page-background-sketches" style="flex-direction: column;">
-            <div class="header-fadeLight">
-                <span class="page-header"><strong>SKETCHES</strong></span>
+        <!-- Header -->
+        <div class="pageBanner" style="background-image: url('assets/images/sketches/header-sketches.jpg');">
+            <div class="pageBanner-fadeSketches">
+                <span class="pageBanner-text"><strong>SKETCHES</strong></span>
             </div>
         </div>
 
 
-        <!-- 2018 section -->
-        <section class="gallery-section" style="padding-bottom: 6rem; background-color: #ddd;">
+        <!-- 2021 section -->
+        <section style="padding-bottom: 6rem; background-color: #dddddd;">
             <div class="container">
-                <div class="row" style="margin-top: 0px !important;">
+                <h2 class="section-heading textColor-darkGrey">2021</h2>
+                <div class="row">
 					<div class="column4" style="padding: 0 !important;">
 						<div class="cardSketches">
 							<img class="cardSketches-image" src="assets/images/sketches/007.jpg"/>
@@ -151,8 +139,8 @@
         </section>
 
 
-        <!-- Copyright section -->
-        <div id="footer">
+        <!-- Copyright -->
+        <div class="footer">
             <div class="colorStrip"></div>
             <span class="copyright">&copy; AmbiguousPhoenix 2021</span>
         </div>
