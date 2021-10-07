@@ -83,12 +83,12 @@ img {
 }
 
 .glassButton-text1 {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
     font-weight: 500;
 }
 
 .glassButton-text2 {
-	font-size: 1.2rem;
+	font-size: 0.9rem;
     font-weight: 300;
 }
 
@@ -102,6 +102,10 @@ img {
 }
 
 .glassButton:hover > .glassButton-overlay {
+	opacity: 50%;
+}
+
+.glassButton:active > .glassButton-overlay {
 	opacity: 50%;
 }
 
@@ -595,7 +599,7 @@ img {
     border-radius: 1.5rem;
 }
 
-.card-description {
+.text-paragraph {
     font-size: 1rem;
     font-weight: 500;
     overflow: hidden;
@@ -846,6 +850,13 @@ img {
 .column2-cyberthugB {
     flex: 0 0 auto;
     width: 100%;
+    margin-top: 1rem;
+}
+
+.column2-cyberthugA-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .column3 {
@@ -858,24 +869,7 @@ img {
     width: 100%;
 }
 
-.column2-cyberthugA-image {
-    width: 22rem;
-    height: 22rem;
-    border-radius: 20px;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media (min-width: 520px) {
-    .column2-cyberthugA-image {
-        width: 22rem;
-        height: 22rem;
-        border-radius: 20px;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .container {
         max-width: 500px;
@@ -927,7 +921,14 @@ img {
 	.column2-cyberthugB {
 	    flex: 0 0 auto;
 	    width: 100%;
+        margin-top: 1rem;
 	}
+
+    .column2-cyberthugA-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
 
     .column3 {
         flex: 0 0 auto;
@@ -941,14 +942,6 @@ img {
 }
 
 @media (min-width: 960px) {
-    .column2-cyberthugA-image {
-        width: 18rem;
-        height: 18rem;
-        border-radius: 500px;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
 	.page-background {
 		height: 18em;
@@ -1008,7 +1001,17 @@ img {
 	.column2-cyberthugB {
 	    flex: 0 0 auto;
 	    width: 60%;
+        margin-top: 0rem;
 	}
+
+    .column2-cyberthugA-image {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 500px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .column3 {
         flex: 0 0 auto;
@@ -1026,14 +1029,6 @@ img {
 }
 
 @media (min-width: 1440px) {
-    .column2-cyberthugA-image {
-        width: 22rem;
-        height: 22rem;
-        border-radius: 500px;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .container {
         max-width: 1420px;
@@ -1062,7 +1057,17 @@ img {
 	.column2-cyberthugB {
 	    flex: 0 0 auto;
 	    width: 70%;
+        margin-top: 0rem;
 	}
+
+    .column2-cyberthugA-image {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 500px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .column3 {
         flex: 0 0 auto;
