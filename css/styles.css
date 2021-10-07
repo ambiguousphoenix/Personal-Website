@@ -105,6 +105,19 @@ img {
 	opacity: 50%;
 }
 
+.glassButtonDisabled {
+	position: relative;
+	display: flex;
+	height: 10rem;
+    border-radius: 500px;
+    border: none;
+    user-select: none;
+    opacity: 40%;
+    background-color: #ffffff10;
+    transform: scale(0.93);
+    transition: all 0.2s ease-out;
+}
+
 
 /* ---------- FEATURE ---------- */
 
