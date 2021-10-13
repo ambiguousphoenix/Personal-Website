@@ -47,7 +47,7 @@ img {
 }
 
 ::selection {
-    background: #a751b260;
+    background: #ffa92760;
 }
 
 .navbarDesktop > .container,
@@ -674,7 +674,7 @@ img {
 
 .socialMediaImage {
 	filter: invert();
-    padding: 12px;
+    padding: 8px;
     width: 60px;
     height: 44px;
     user-select: none;
@@ -683,7 +683,7 @@ img {
 }
 
 .socialMediaImage:hover {
-    padding: 15px;
+    padding: 12px;
 }
 
 
