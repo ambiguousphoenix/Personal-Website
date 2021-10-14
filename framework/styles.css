@@ -356,17 +356,12 @@ img {
 
 .glassButton-text1 {
 	font-size: 1.7rem;
-    font-weight: 500;
-}
-
-.glassButton-text1b {
-	font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .glassButton-text2 {
 	font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .glassButton-overlay {
@@ -946,7 +941,7 @@ img {
     .column2-cyberthugA-image {
         width: 100%;
         height: 100%;
-        border-radius: 20px;
+        border-radius: 1rem;
     }
 
 	.column2-cyberthugB {
@@ -1018,7 +1013,7 @@ img {
     .column2-cyberthugA-image {
         width: 100%;
         height: 100%;
-        border-radius: 20px;
+        border-radius: 1rem;
     }
 
 	.column2-cyberthugB {
@@ -1090,7 +1085,7 @@ img {
     .column2-cyberthugA-image {
         width: 21rem;
         height: 21rem;
-        border-radius: 500px;
+        border-radius: 2.5rem;
         margin-bottom: 2rem;
     }
 
@@ -1163,7 +1158,7 @@ img {
     .column2-cyberthugA-image {
         width: 24rem;
         height: 24rem;
-        border-radius: 500px;
+        border-radius: 2.5rem;
         margin-bottom: 2rem;
     }
 
@@ -1182,4 +1177,37 @@ img {
 	    flex: 0 0 auto;
 	    width: 25%;
 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animCyberthugB {
+  display: flex;
+  padding: 2px;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.animCyberthugB {
+  animation: animCyberthugB-animation 4s infinite steps(48) forwards;
+}
+
+
+@keyframes animCyberthugB-animation {
+  to {
+    background-position: -14400px 0px;
+  }
 }
