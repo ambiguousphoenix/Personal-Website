@@ -276,7 +276,7 @@ img {
 }
 
 .bgColor-photos {
-    background-color: #505454;
+    background-color: #464a49;
 }
 
 .bgColor-sketches {
@@ -613,7 +613,7 @@ img {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #50545400, #505454ff);
+    background: linear-gradient(to bottom, #464a4900, #464a49ff);
 }
 
 .pageBanner-fadeSketches {
@@ -735,7 +735,7 @@ img {
 }
 
 .cardStandard-image {
-    background-color: #302b30;
+    background-color: #56616c;
     width: 100%;
     border-radius: 1.5rem;
     margin-top: 1rem;
@@ -824,7 +824,7 @@ img {
 /* ---------- Photography cards ---------- */
 
 .cardPhotography {
-    background-color: #505454;
+    background-color: #565b5a;
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
@@ -873,7 +873,7 @@ img {
 }
 
 .cardPhotography-description {
-    background-color: #626767;
+    background-color: #6a716f;
     font-size: 1rem;
     font-weight: 500;
     overflow: hidden;
