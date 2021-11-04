@@ -6,12 +6,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="framework/styles.css">
+        <link rel="stylesheet" href="framework/colors.css">
+        <link rel="stylesheet" href="framework/display.css">
+        <link rel="stylesheet" href="framework/slideshowTest.css">
         <script src="framework/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bgColor-brownGrey" onload="document.body.style.opacity='1', avatar.hidden=false">
+    <body class="bgColor-cyberthug" onload="document.body.style.opacity='1', avatar.hidden=false">
 
         <!-- Feature section -->
         <section class="featureCyberthug textColor-white" style="background-image: url('assets/images/cyberthug/background.jpg');">
@@ -36,7 +39,7 @@
                         <div class="row">
 
         					<div class="column2-cyberthugA">
-        						<img class="column2-cyberthugA-image" src="assets/images/cyberthug/cyberthugBeta.gif" style="background-color: #00000060;"></img>
+        						<img class="column2-cyberthugA-image" src="assets/images/cyberthug/cyberthugBeta.gif" style="background-color: #1A1816; padding: 24px;"></img>
         					</div>
 
         					<div class="column2-cyberthugB">
@@ -66,7 +69,7 @@
                         <div class="row">
 
 							<div class="column2-cyberthugA">
-        						<img class="column2-cyberthugA-image" src="assets/images/cyberthug/cyberthugCore.gif" style="background-color: #00000060;"></img>
+        						<img class="column2-cyberthugA-image" src="assets/images/cyberthug/cyberthugCore.gif" style="background-color: #1A1816; padding: 24px;"></img>
         					</div>
 
         					<div class="column2-cyberthugB">
@@ -79,13 +82,51 @@
                     </div>
                 </section>
 
-        		<!-- Workbooks -->
-                <section>
+        		<!-- Gallery and workbooks -->
+                <section style="padding-bottom: 6rem;">
         			<div class="container">
-                        <h2 class="section-heading textColor-secondary" style="text-align: left !important;">Download the workbooks</h2>
                         <div class="row">
 
-							<div class="column3">
+							<div class="column2-60">
+		                        <h2 class="section-heading textColor-secondary" style="text-align: left !important;">Gallery</h2>
+								<div class="slideshow-container">
+									<div class="slideshow-slides" style="display: block;">
+										<div class="slideshow-counter">1/5</div>
+											<img src="assets/images/cyberthug/slideshow01.jpg" style="width: 100%; border-radius: 2.5rem; box-shadow: 0rem 0.1rem 0.5rem #00000040; pointer-events: none;">
+										<div class="slideshow-text">Initial render of the Cyberthug Core</div>
+									</div>
+
+									<div class="slideshow-slides">
+										<div class="slideshow-counter">2/5</div>
+											<img src="assets/images/cyberthug/slideshow02.jpg" style="width: 100%; border-radius: 2.5rem; box-shadow: 0rem 0.1rem 0.5rem #00000040; pointer-events: none;">
+										<div class="slideshow-text">Creepy render from the POV of a creep</div>
+									</div>
+
+									<div class="slideshow-slides">
+										<div class="slideshow-counter">3/5</div>
+											<img src="assets/images/cyberthug/slideshow03.jpg" style="width: 100%; border-radius: 2.5rem; box-shadow: 0rem 0.1rem 0.5rem #00000040; pointer-events: none;">
+										<div class="slideshow-text">Unfinished cyberthug recreation v1</div>
+									</div>
+
+									<div class="slideshow-slides">
+										<div class="slideshow-counter">4/5</div>
+											<img src="assets/images/cyberthug/slideshow04.jpg" style="width: 100%; border-radius: 2.5rem; box-shadow: 0rem 0.1rem 0.5rem #00000040; pointer-events: none;">
+										<div class="slideshow-text">Unfinished cyberthug recreation v2</div>
+									</div>
+
+									<div class="slideshow-slides">
+										<div class="slideshow-counter">5/5</div>
+											<img src="assets/images/cyberthug/slideshow05.jpg" style="width: 100%; border-radius: 2.5rem; box-shadow: 0rem 0.1rem 0.5rem #00000040; pointer-events: none;">
+										<div class="slideshow-text">Testing integration with an HDRI environment map</div>
+									</div>
+
+									<a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
+								</div>
+							</div>
+
+							<div class="column2-40">
+		                        <h2 class="section-heading textColor-secondary" style="text-align: left !important;">Workbooks</h2>
 								<a href="files/2021-sem1-appliedMedia.pdf">
 									<div class="glassButton glassButtonCyberthug" style="margin-bottom: 1rem;">
 										<img class="glassButton-image" src="assets/vector/cyberthug.svg"/>
@@ -101,9 +142,6 @@
 										</div>
 									</div>
 								</a>
-							</div>
-
-							<div class="column3">
 								<div class="glassButtonDisabled">
 									<img class="glassButton-image" src="assets/vector/cyberthugCore.svg"/>
 									<img class="glassButton-overlay" src="assets/images/glassButton-glare.png"/>
@@ -118,28 +156,6 @@
 									</div>
 								</div>
 							</div>
-
-                        </div>
-                    </div>
-                </section>
-
-        		<!-- Gallery -->
-                <section style="padding-bottom: 6rem;">
-        			<div class="container">
-                        <h2 class="section-heading textColor-secondary" style="text-align: left !important;">Gallery</h2>
-                        <div class="row">
-
-							<div class="column4">
-        						<img class="galleryCyberthug" src="assets/images/cyberthug/gallery03-small.jpg"></img>
-        					</div>
-
-							<div class="column4">
-        						<img class="galleryCyberthug" src="assets/images/cyberthug/gallery02-small.jpg"></img>
-        					</div>
-
-							<div class="column4">
-        						<img class="galleryCyberthug" src="assets/images/cyberthug/gallery01-small.jpg"></img>
-        					</div>
 
                         </div>
                     </div>

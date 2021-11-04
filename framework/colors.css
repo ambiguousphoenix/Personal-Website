@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+/* ---------- Background colours ---------- */
+
+.bgColor-primary {
+    background-color: #212121;
+}
+
+.bgColor-secondary {
+    background-color: #303030;
+}
+
+.bgColor-white {
+    background-color: #e0e0e0;
+}
+
+.bgColor-lightGrey {
+    background-color: #dddddd;
+}
+
+.bgColor-darkGrey {
+    background-color: #202020;
+}
+
+.bgColor-blueGrey {
+    background-color: #353a3c;
+}
+
+.bgColor-cyberthug {
+    background-color: #2d2a29;
+}
+
+.bgColor-school {
+    background-color: #394047;
+}
+
+.bgColor-photos {
+    background-color: #464a49;
+}
+
+.bgColor-sketches {
+	background-color: #e3deda;
+}
+
+.bgColor-black {
+    background-color: #000000;
+}
+
+
+/* ---------- Text colours ---------- */
+
+.textColor-primary {
+    color: #f0f0f0;
+}
+
+.textColor-secondary {
+    color: #b0b0b0;
+}
+
+.textColor-white {
+    color: #ffffff;
+}
+
+.textColor-lightGrey {
+    color: #b0b0b0;
+}
+
+.textColor-darkGrey {
+    color: #606060;
+}
+
+.textColor-black {
+    color: #000000;
+}
