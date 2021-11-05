@@ -224,14 +224,14 @@ img {
   }
 }
 
-#home2 {
+.home2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#cyberthug2 {
+.cyberthug2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,6 +340,15 @@ img {
 }
 
 .glassButtonCyberthug {
+	position: relative;
+	display: flex;
+	height: 10rem;
+    border-radius: 3rem;
+    border: none;
+    user-select: none;
+	margin-bottom: 2rem;
+    box-shadow: 0rem 0.1rem 0.5rem #00000040;
+    transition: all 0.2s ease-out;
     background-color: #4d464420;
 }
 
@@ -374,6 +383,10 @@ img {
 }
 
 .glassButton:hover > .glassButton-overlay {
+	opacity: 50%;
+}
+
+.glassButtonCyberthug:hover > .glassButton-overlay {
 	opacity: 50%;
 }
 
@@ -576,6 +589,12 @@ img {
 .colorStrip {
     height: 6px;
     background-image: linear-gradient(to right, #a751b2, #faab34);
+    overflow: hidden;
+}
+
+.colorStripWhite {
+    height: 3px;
+    background-color: #888;
     overflow: hidden;
 }
 
