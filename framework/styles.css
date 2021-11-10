@@ -265,7 +265,7 @@ img {
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	transition: 0.2s;
+	transition: 0.12s;
 	border-radius: 0 1rem 1rem 0;
 	user-select: none;
 	background-color: #0004;
@@ -545,7 +545,7 @@ img {
     display: flex;
     border-radius: 0.75rem;
     overflow: hidden;
-	background-color: #363636;
+	background-color: #fff0;
     transition: all 0.2s ease-out;
 }
 
@@ -574,7 +574,7 @@ img {
 .navbarLinks-link:hover {
 	opacity: 100%;
 	padding: 10px;
-    background-color: #606060;
+    background-color: #fff3;
 }
 
 .navbarLinks-link:hover > .navbarLinks-link-image {
@@ -726,6 +726,55 @@ img {
 
 /* ---------- Standard cards ---------- */
 
+.workbookButton {
+	position: relative;
+	display: flex;
+	height: 4rem;
+    border-radius: 1.5rem;
+    border: none;
+    user-select: none;
+	margin-bottom: 1rem;
+    transition: all 0.12s ease-out;
+    background-color: #50616D;
+}
+
+.workbookButton:hover {
+    background-color: #5B6D7A;
+}
+
+.workbookButtonAlt {
+	position: relative;
+	display: flex;
+	height: 6rem;
+    border-radius: 1.5rem;
+    border: none;
+    user-select: none;
+	margin-bottom: 1rem;
+    transition: all 0.12s ease-out;
+    background-color: #ffffff10;
+	box-shadow: 0rem 0.1rem 0.5rem #00000040;
+}
+
+.workbookButtonAlt:hover {
+    background-color: #ffffff20;
+}
+
+.workbookButtonSub {
+	display: flex;
+}
+
+.workbookButtonSub-text {
+	font-weight: 700;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.workbookButtonSub-textAlt {
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 1.1rem;
+}
+
 .cardStandard {
     background-color: #404E57;
     padding: 1rem;
@@ -802,7 +851,6 @@ img {
 }
 
 .cardStandard-buttonSub-text {
-	width: ;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 2rem;
