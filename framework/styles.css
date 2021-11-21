@@ -76,6 +76,11 @@ img {
 	margin-left: calc(var(--bs-gutter-x) * -.10);
 }
 
+.section {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
 .section-heading {
 	letter-spacing: 1px;
     text-align: center;
@@ -623,7 +628,7 @@ img {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #464a4900, #464a49ff);
+    background: linear-gradient(to bottom, #3f4b4800, #3f4b48ff);
 }
 
 .pageBanner-fadeSketches {
@@ -879,7 +884,6 @@ img {
 /* ---------- Photography cards ---------- */
 
 .cardPhotography {
-    background-color: #565b5a;
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
@@ -928,7 +932,6 @@ img {
 }
 
 .cardPhotography-description {
-    background-color: #6a716f;
     font-size: 1rem;
     font-weight: 500;
     overflow: hidden;
