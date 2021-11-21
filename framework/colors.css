@@ -29,10 +29,39 @@
 
 .bgColor-cyberthug {
     background-color: #2d2a29;
+
 }
 
-.bgColor-school {
-    background-color: #394047;
+.bgColor-school-1a {
+    background-color: #3d454d;
+}
+
+.bgColor-school-1b {
+    background-color: #32383f;
+}
+
+.bgColor-school-2a {
+    background-color: #4d5761;
+}
+
+.bgColor-school-2b {
+    background-color: #3f474f;
+}
+
+.bgColor-school-3a {
+    background-color: #5d6975;
+}
+
+.bgColor-school-3b {
+    background-color: #4c555f;
+}
+
+.bgColor-school-4a {
+    background-color: #6d7b8a;
+}
+
+.bgColor-school-4b {
+    background-color: #596470;
 }
 
 .bgColor-photos {
