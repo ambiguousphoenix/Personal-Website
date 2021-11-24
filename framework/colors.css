@@ -63,10 +63,6 @@
     background-color: #596470;
 }
 
-.bgColor-photos {
-    background-color: #464a49;
-}
-
 .bgColor-photos-1a {
     background-color: #3f4b48;
 }
@@ -99,8 +95,36 @@
     background-color: #5c6d69;
 }
 
-.bgColor-sketches {
-	background-color: #e3deda;
+.bgColor-sketches-1a {
+    background-color: #484441;
+}
+
+.bgColor-sketches-1b {
+    background-color: #3a3735;
+}
+
+.bgColor-sketches-2a {
+    background-color: #5b5653;
+}
+
+.bgColor-sketches-2b {
+    background-color: #4a4643;
+}
+
+.bgColor-sketches-3a {
+    background-color: #6d6763;
+}
+
+.bgColor-sketches-3b {
+    background-color: #595450;
+}
+
+.bgColor-sketches-4a {
+    background-color: #817a75;
+}
+
+.bgColor-sketches-4b {
+    background-color: #69635f;
 }
 
 .bgColor-black {
