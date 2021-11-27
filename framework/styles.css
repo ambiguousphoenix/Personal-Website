@@ -525,7 +525,7 @@ img {
 
 .navbarLinks-other {
 	display: flex;
-    border-radius: 13px;
+    border-radius: 6px;
 	width: 48px;
     height: 100%;
 	overflow: hidden;
@@ -542,8 +542,8 @@ img {
 
 .navbarLinks-active {
 	display: flex;
-	padding: 8px;
-    border-radius: 13px;
+	padding: 12px;
+    border-radius: 6px;
 	width: 48px;
     height: 100%;
     overflow: hidden;
@@ -551,6 +551,12 @@ img {
 
 .navbarLinks-image {
 	filter: invert();
+}
+
+.navbarLinks-text {
+	margin-left: 0.5rem;
+	margin-right: 2.5rem;
+	color: #fff;
 }
 
 
