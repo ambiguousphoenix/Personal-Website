@@ -347,3 +347,21 @@
 	    width: 25%;
 	}
 }
+
+
+@media (max-width: 1150px) {
+	.navbarLinks-other {
+		width: 48px !important;
+		transition: 0.2s ease-out;
+	}
+
+	.navbarLinks-active {
+		width: 48px !important;
+		transition: 0.2s ease-out;
+	}
+
+	.navbarLinks-text {
+		opacity: 0%;
+		transition: 0.2s ease-out;
+	}
+}

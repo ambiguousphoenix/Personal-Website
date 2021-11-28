@@ -504,13 +504,13 @@ img {
     width: 2px;
     height: 50px;
     margin-right: 0.75rem;
-    background-color: #666666;
+    background-color: #fff5;
 }
 
 .navbarDividerMobile {
     width: 100%;
     height: 2px;
-    background-color: #666666;
+    background-color: #fff5;
 }
 
 
@@ -525,7 +525,7 @@ img {
 
 .navbarLinks-other {
 	display: flex;
-    border-radius: 6px;
+    border-radius: 13px;
 	width: 48px;
     height: 100%;
 	overflow: hidden;
@@ -557,6 +557,7 @@ img {
 	margin-left: 0.5rem;
 	margin-right: 2.5rem;
 	color: #fff;
+	opacity: 100%;
 }
 
 
@@ -626,7 +627,7 @@ img {
 	border-width: 2px;
 	border-color: #888;
     border-radius: 16px;
-	background-color: #0006;
+	background-color: #0009;
     padding: 2px;
     width: 188px;
     height: 48px;
