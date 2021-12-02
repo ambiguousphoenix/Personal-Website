@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bgColor-sketches-1a" onload="document.body.style.opacity='1'">
+    <body class="bgColor-about" onload="document.body.style.opacity='1', avatar.hidden=false">
 
 		<!-- Navbar Desktop-->
         <nav class="navbarDesktop">
@@ -46,16 +46,16 @@
 							<span class="navbarLinks-text">Photos</span>
     					</div>
     				</a>
-    				<div class="navbarLinks-active" style="width: 124px;">
-    					<img class="navbarLinks-image" src="assets/vector/sketches.svg"/>
-						<span class="navbarLinks-text">Sketches</span>
-    				</div>
-    				<a href="about.html">
-    					<div class="navbarLinks-other" style="width: 104px;">
-    						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
-							<span class="navbarLinks-text">About</span>
+					<a href="sketches.html">
+    					<div class="navbarLinks-other" style="width: 124px;">
+    						<img class="navbarLinks-image" src="assets/vector/sketches.svg"/>
+							<span class="navbarLinks-text">Sketches</span>
     					</div>
     				</a>
+					<div class="navbarLinks-active" style="width: 104px;">
+						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
+						<span class="navbarLinks-text">About</span>
+					</div>
                 </div>
                 <div class="socialMediaNavbar">
 					<div class="socialMediaLink" style="border-radius: 13px 6px 6px 13px;">
@@ -106,14 +106,14 @@
 							<img class="navbarLinks-image" src="assets/vector/photos.svg"/>
 						</div>
 					</a>
-					<div class="navbarLinks-active" style="border-radius: 0rem;">
-						<img class="navbarLinks-image" src="assets/vector/sketches.svg"/>
-					</div>
-					<a href="about.html">
+					<a href="sketches.html">
 						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/about.svg"/>
+							<img class="navbarLinks-image" src="assets/vector/sketches.svg"/>
 						</div>
 					</a>
+					<div class="navbarLinks-active" style="border-radius: 0rem;">
+						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
+					</div>
                 </div>
             </div>
         </nav>
@@ -121,52 +121,40 @@
 
         <div class="colorStrip"></div>
 
+        <div class="backgroundFill" style="background-image: url('assets/images/about/backgroundBlur.jpg');">
 
-        <!-- Header -->
-        <div class="pageBanner" style="background-image: url('assets/images/sketches/banner.jpg');">
-            <div class="pageBanner-fadeSketches">
-                <span class="pageBanner-text"><strong>SKETCHES</strong></span>
-            </div>
+            <div class="backgroundFill" style="background-image: url('assets/images/noise.png'); background-attachment: scroll;">
+
+        		<!-- Main section -->
+                <section class="section">
+
+					<div class="avatarLuke">
+						<img class="avatar-image" style="padding: 0%;" src="assets/images/about/luke.jpg"></img>
+					</div>
+
+        			<div class="container">
+
+                        <div class="row">
+
+        					<div class="column1-about">
+								<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Who am I?</h2>
+        						<span class="text-paragraph textColor-white">
+        							Hey there! I'm AmbiguousPhoenix, but you can call me Luke. I'm a student working towards my Bachelor's degree in Creativity, with a particular interest in animation. Some of my other interests include game development, graphic design, photography, web development and going for walks in nature.
+        						</span>
+        						<br>
+        						<br>
+        						<span class="text-paragraph textColor-white">
+        							In my early tertiary days, I studied a bit of Information Technology, although I later decided it wasn't my thing, and I was more drawn to the creative, visual aspect of my current field of study.
+        						</span>
+        					</div>
+
+                        </div>
+                    </div>
+                </section>
+
+        	</div>
+
         </div>
-
-
-        <!-- 2021 section -->
-        <section class="section bgColor-sketches">
-            <div class="container">
-                <h2 class="section-heading textColor-primary">2021</h2>
-                <div class="row">
-					<div class="column4" style="padding: 0 !important;">
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/008.jpg"/>
-						</div>
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/007.jpg"/>
-						</div>
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/006.jpg"/>
-						</div>
-					</div>
-					<div class="column4" style="padding: 0 !important;">
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/004.jpg"/>
-						</div>
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/003.jpg"/>
-						</div>
-					</div>
-					<div class="column4" style="padding: 0 !important;">
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/002.jpg"/>
-						</div>
-					</div>
-					<div class="column4" style="padding: 0 !important;">
-						<div class="cardSketches">
-							<img class="cardSketches-image" src="assets/images/sketches/001.jpg"/>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
 
 
         <!-- Copyright -->
