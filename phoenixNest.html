@@ -13,9 +13,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bgColor-about" onload="document.body.style.opacity='1', avatar.hidden=false">
+    <body class="bgColor-dev" onload="document.body.style.opacity='1'">
 
-		<!-- Navbar Desktop-->
+        <!-- Navbar Desktop-->
         <nav class="navbarDesktop">
             <div class="container-fluid" style="padding: 0px !important;">
 				<div class="navbarLogo">
@@ -33,14 +33,12 @@
 							<span class="navbarLinks-text">Cyberthug</span>
     					</div>
     				</a>
-					<a href="phoenixNest.html">
-    					<div class="navbarLinks-other" style="width: 158px;">
-    						<img class="navbarLinks-image" src="assets/vector/placeholder.svg"/>
-							<span class="navbarLinks-text">Phoenix Nest</span>
-    					</div>
-    				</a>
+					<div class="navbarLinks-active" style="width: 158px;">
+    					<img class="navbarLinks-image" src="assets/vector/placeholder.svg"/>
+						<span class="navbarLinks-text">Phoenix Nest</span>
+    				</div>
 					<div class="navbarLinksDividerDesktop"></div>
-    				<a href="school.html">
+					<a href="school.html">
     					<div class="navbarLinks-other" style="width: 108px;">
     						<img class="navbarLinks-image" src="assets/vector/school.svg"/>
 							<span class="navbarLinks-text">School</span>
@@ -52,17 +50,19 @@
 							<span class="navbarLinks-text">Photos</span>
     					</div>
     				</a>
-					<a href="sketches.html">
+    				<a href="sketches.html">
     					<div class="navbarLinks-other" style="width: 124px;">
     						<img class="navbarLinks-image" src="assets/vector/sketches.svg"/>
 							<span class="navbarLinks-text">Sketches</span>
     					</div>
     				</a>
 					<div class="navbarLinksDividerDesktop"></div>
-					<div class="navbarLinks-active" style="width: 104px;">
-						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
-						<span class="navbarLinks-text">About</span>
-					</div>
+    				<a href="about.html">
+    					<div class="navbarLinks-other" style="width: 104px;">
+    						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
+							<span class="navbarLinks-text">About</span>
+    					</div>
+    				</a>
                 </div>
                 <div class="socialMediaNavbar">
 					<div class="socialMediaLink" style="border-radius: 13px 6px 6px 13px;">
@@ -103,11 +103,9 @@
 							<img class="navbarLinks-image" src="assets/vector/cyberthug_small.svg"/>
 						</div>
 					</a>
-					<a href="phoenixNest.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/placeholder.svg"/>
-						</div>
-					</a>
+					<div class="navbarLinks-active" style="border-radius: 0rem;">
+						<img class="navbarLinks-image" src="assets/vector/placeholder.svg"/>
+					</div>
 					<div class="navbarLinksDividerDesktop"></div>
 					<a href="school.html">
 						<div class="navbarLinks-other" style="border-radius: 0rem;">
@@ -125,9 +123,11 @@
 						</div>
 					</a>
 					<div class="navbarLinksDividerDesktop"></div>
-					<div class="navbarLinks-active" style="border-radius: 0rem;">
-						<img class="navbarLinks-image" src="assets/vector/about.svg"/>
-					</div>
+					<a href="about.html">
+						<div class="navbarLinks-other" style="border-radius: 0rem;">
+							<img class="navbarLinks-image" src="assets/vector/about.svg"/>
+						</div>
+					</a>
                 </div>
             </div>
         </nav>
@@ -135,40 +135,21 @@
 
         <div class="colorStrip"></div>
 
-        <div class="backgroundFill" style="background-image: url('assets/images/about/backgroundBlur.jpg');">
 
-            <div class="backgroundFill" style="background-image: url('assets/images/noise.png'); background-attachment: scroll;">
-
-        		<!-- Main section -->
-                <section class="section">
-
-					<div class="avatarLuke">
-						<img class="avatar-image" style="padding: 0%;" src="assets/images/about/luke.jpg"></img>
-					</div>
-
-        			<div class="container">
-
-                        <div class="row">
-
-        					<div class="column1-about">
-								<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Who am I?</h2>
-        						<span class="text-paragraph textColor-white">
-        							Hey there! I'm AmbiguousPhoenix, but you can call me Luke. I'm a student working towards my Bachelor's degree in Creativity, with a particular interest in animation. Some of my other interests include game development, graphic design, photography, web development and going for walks in nature.
-        						</span>
-        						<br>
-        						<br>
-        						<span class="text-paragraph textColor-white">
-        							In my early tertiary days, I studied a bit of Information Technology, although I later decided it wasn't my thing, and I was more drawn to the creative, visual aspect of my current field of study.
-        						</span>
-        					</div>
-
-                        </div>
-                    </div>
-                </section>
-
-        	</div>
-
+        <!-- Header -->
+        <div class="pageBanner" style="background-image: url('assets/images/phoenixNest/banner.jpg');">
+            <div class="pageBanner-fadeDev">
+                <span class="pageBanner-text"><strong>PHOENIX NEST</strong></span>
+            </div>
         </div>
+
+
+		<!-- Workbooks -->
+        <section class="section bgColor-dev" style="padding-bottom: 30rem;">
+            <div class="container">
+                <h2 class=" textColor-secondary">This is a WIP and won't be available until later. I would've just put "coming soon" but it might not be soon.</h2>
+            </div>
+        </section>
 
 
         <!-- Copyright -->
