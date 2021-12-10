@@ -955,6 +955,32 @@ img {
 	height: 100%;
 }
 
+.cardBlog {
+	height: 22rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+	user-select: none;
+    box-shadow: 0rem 0.1rem 0.5rem #00000050;
+	transition: all 0.2s ease-out;
+}
+
+.cardBlog-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cardBlog-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cardBlog:hover {
+	filter: brightness(1.2);
+}
+
 
 /* ---------- Extra ---------- */
 
