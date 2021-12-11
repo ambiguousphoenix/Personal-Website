@@ -278,6 +278,11 @@
 	    flex: 0 0 auto;
 	    width: 33%;
 	}
+
+	.homeSubSection {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
 
@@ -374,10 +379,15 @@
 	    flex: 0 0 auto;
 	    width: 25%;
 	}
+
+	.homeSubSection {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
 }
 
 
-@media (max-width: 1390px) {
+@media (max-width: 1460px) {
 	.navbarLinks-other {
 		width: 48px !important;
 	}
