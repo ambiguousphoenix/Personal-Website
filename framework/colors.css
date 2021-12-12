@@ -23,6 +23,10 @@
     background-color: #202020;
 }
 
+.bgColor-black {
+    background-color: #000000;
+}
+
 .bgColor-blueGrey {
     background-color: #353a3c;
 }
@@ -31,9 +35,19 @@
 	background-color: #3a435b;
 }
 
+.bgColor-default {
+    background-color: #404040;
+}
+
+
+/* ---------- Cyberthug colours ---------- */
+
 .bgColor-cyberthug {
     background-color: #40332f;
 }
+
+
+/* ---------- School colours ---------- */
 
 .bgColor-school-1a {
     background-color: #3d454d;
@@ -67,6 +81,9 @@
     background-color: #596470;
 }
 
+
+/* ---------- Photos colours ---------- */
+
 .bgColor-photos-1a {
     background-color: #3f4b48;
 }
@@ -97,46 +114,6 @@
 
 .bgColor-photos-4b {
     background-color: #5c6d69;
-}
-
-.bgColor-sketches-1a {
-    background-color: #484441;
-}
-
-.bgColor-sketches-1b {
-    background-color: #3a3735;
-}
-
-.bgColor-sketches-2a {
-    background-color: #5b5653;
-}
-
-.bgColor-sketches-2b {
-    background-color: #4a4643;
-}
-
-.bgColor-sketches-3a {
-    background-color: #6d6763;
-}
-
-.bgColor-sketches-3b {
-    background-color: #595450;
-}
-
-.bgColor-sketches-4a {
-    background-color: #817a75;
-}
-
-.bgColor-sketches-4b {
-    background-color: #69635f;
-}
-
-.bgColor-about {
-    background-color: #404040;
-}
-
-.bgColor-black {
-    background-color: #000000;
 }
 
 
