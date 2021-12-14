@@ -1,9 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-RewriteRule ^cyberthug cyberthug.html
-RewriteRule ^phoenixNest phoenixNest.html
-RewriteRule ^school school.html
-RewriteRule ^photos photos.html
-RewriteRule ^sketches sketches.html
-RewriteRule ^blog blog.html
-RewriteRule ^about about.html
