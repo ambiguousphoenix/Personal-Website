@@ -35,6 +35,14 @@
 	background-color: #3a435b;
 }
 
+.bgColor-devLight {
+	background-color: #4C5777;
+}
+
+.bgColor-devDark {
+	background-color: #2F364A;
+}
+
 .bgColor-default {
     background-color: #404040;
 }

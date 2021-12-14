@@ -66,6 +66,14 @@ img {
 	margin-left: auto;
 }
 
+.container-blogPost {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
 .row {
 	--bs-gutter-x: 1.5rem;
 	--bs-gutter-y: 0;
@@ -166,17 +174,6 @@ img {
 	height: 400px;
 	position: relative;
 	display: flex;
-}
-
-.avatarLuke {
-	width: 400px;
-	height: 400px;
-	position: relative;
-	display: flex;
-	margin-top: 8rem;
-	margin-bottom: 5rem;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .avatar-image {
@@ -966,9 +963,8 @@ img {
 }
 
 .cardBlog {
-	height: 22rem;
-	text-overflow: ellipsis;
-	overflow: hidden;
+	height: 6rem;
+	margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
@@ -1025,16 +1021,21 @@ img {
 }
 
 .column4-block {
-	background-color: #0005;
+	background-color: #222a;
 	transition: all 0.2s ease-out;
 }
 
 .column4:hover > .column4-block {
-	background-color: #000a;
+	background-color: #444a;
 }
 
 .textLink {
 	font-weight: 700;
 	text-decoration: underline;
 	color: #a3b3ff;
+	transition: all 0.15s ease-out;
+}
+
+.textLink:hover {
+	color: #D5DCFF;
 }
