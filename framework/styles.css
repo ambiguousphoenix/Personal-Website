@@ -417,6 +417,7 @@ img {
     transition: all 0.2s ease-out;
 }
 
+/*
 .portfolio:hover {
     transform: scale(0.98);
 }
@@ -425,6 +426,7 @@ img {
     transform: scale(0.9);
     transition: all 0.12s ease-out;
 }
+*/
 
 .portfolio-image {
     border-radius: 1.5rem;
@@ -809,6 +811,12 @@ img {
     margin-bottom: 0.67rem;
 }
 
+.cardStandard-slideshow {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.67rem;
+}
+
 .cardStandard-video {
     position: relative;
     padding-bottom: 75%;
@@ -1010,4 +1018,23 @@ img {
   to {
     background-position: -14400px 0px;
   }
+}
+
+.column4 {
+	transform: scale(0.95);
+}
+
+.column4-block {
+	background-color: #0005;
+	transition: all 0.2s ease-out;
+}
+
+.column4:hover > .column4-block {
+	background-color: #000a;
+}
+
+.textLink {
+	font-weight: 700;
+	text-decoration: underline;
+	color: #a3b3ff;
 }

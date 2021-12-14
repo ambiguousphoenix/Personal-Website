@@ -88,7 +88,13 @@
 
 	.column4 {
 	    flex: 0 0 auto;
-	    width: 100%;
+	    width: 33%;
+	}
+
+	.column4-block {
+		width: 8rem;
+		height: 8rem;
+        border-radius: 1rem;
 	}
 }
 
@@ -180,7 +186,13 @@
 
 	.column4 {
 	    flex: 0 0 auto;
-	    width: 100%;
+	    width: 33%;
+	}
+
+	.column4-block {
+		width: 9.5rem;
+		height: 9.5rem;
+        border-radius: 1rem;
 	}
 }
 
@@ -277,6 +289,12 @@
 	.column4 {
 	    flex: 0 0 auto;
 	    width: 33%;
+	}
+
+	.column4-block {
+		width: 11rem;
+		height: 11rem;
+        border-radius: 1rem;
 	}
 
 	.homeSubSection {
@@ -378,6 +396,12 @@
 	.column4 {
 	    flex: 0 0 auto;
 	    width: 25%;
+	}
+
+	.column4-block {
+		width: 13rem;
+		height: 13rem;
+        border-radius: 1rem;
 	}
 
 	.homeSubSection {
