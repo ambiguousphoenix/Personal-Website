@@ -250,6 +250,13 @@ img {
     background-size: cover;
 }
 
+.backgroundFillNoise {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: round;
+    background-size: contain;
+}
+
 
 /* ---------- Slideshow ---------- */
 
@@ -639,7 +646,7 @@ img {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(toworkbookButtonSub bottom, #40404000, #404040ff);
+    background: linear-gradient(to bottom, #dddddd00, #ddddddff);
 }
 
 .pageBanner-text {

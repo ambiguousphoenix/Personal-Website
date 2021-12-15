@@ -102,6 +102,11 @@
         border-radius: 1rem;
 	}
 
+	.column-sketches {
+	    flex: 0 0 auto;
+	    width: 100%;
+	}
+
 	.avatarLuke {
 		width: 300px;
 		height: 300px;
@@ -214,6 +219,11 @@
 		width: 9.5rem;
 		height: 9.5rem;
         border-radius: 1rem;
+	}
+
+	.column-sketches {
+	    flex: 0 0 auto;
+	    width: 50%;
 	}
 
 	.avatarLuke {
@@ -332,6 +342,11 @@
 		width: 11rem;
 		height: 11rem;
         border-radius: 1rem;
+	}
+
+	.column-sketches {
+	    flex: 0 0 auto;
+	    width: 33%;
 	}
 
 	.homeSubSection {
@@ -455,6 +470,11 @@
 		width: 13rem;
 		height: 13rem;
         border-radius: 1rem;
+	}
+
+	.column-sketches {
+	    flex: 0 0 auto;
+	    width: 25%;
 	}
 
 	.homeSubSection {
