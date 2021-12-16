@@ -179,7 +179,7 @@
 						<br><br>
 						Using another example, if you’ve ever asked for advice from a professional photographer, chances are they told you to “shoot raw, and use a high bit depth like 14-bit”. While most consumer-grade monitors are only 8-bit, the same rules apply. By shooting 14-bit, you have more data to work with.
 					</p>
-					<img src="image0002.jpg" class="blog-image"/>
+					<img src="aces-workflow-for-maya-renderman-and-adobe/image02.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">How does light work?</span>
 					<p class="blog-paragraph textColor-white">
 						The human eye doesn’t see light in a linear fashion. This makes sense for survival reasons as it means we can see dark areas lighter than they really are.
@@ -190,7 +190,7 @@
 						<br><br>
 						The right image is the same but with a gamma curve of 2.2 applied, making it sRGB. This is what we’re aiming for when it’s time to publish stuff online.
 					</p>
-					<img src="image0003.jpg" class="blog-image"/>
+					<img src="aces-workflow-for-maya-renderman-and-adobe/image03.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">Preparing RenderMan</span>
 					<p class="blog-paragraph textColor-white">
 						No matter what software you decide to use to view your rendered images, first you’ll need to setup Maya and RenderMan to export them properly.
@@ -225,7 +225,7 @@
 						<br><br>
 						Your render will most likely look a bit dull and washed out after this, like the second image below. This is because Photoshop interpreted the EXR as an sRGB image when you opened it rather than leaving it as is. To counter this, open the Exposure window and set the gamma correction to 0.454. Click OK and you’re done!
 					</p>
-					<img src="image0004.jpg" class="blog-image"/>
+					<img src="aces-workflow-for-maya-renderman-and-adobe/image04.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">Converting to sRGB in After Effects</span>
 					<p class="blog-paragraph textColor-white">
 						The process in After Effects is more straight-forward. Unlike Photoshop, here you’re given the option to leave the EXR’s colour alone. This is what you want, so right-click the imported EXR in the project panel and choose Interpret Footage>Main. Click the box that says Preserve RGB.
@@ -234,7 +234,7 @@
 						<br><br>
 						Depending on your situation, you might also need to disable colour management in the Project Settings window.
 					</p>
-					<img src="image0005.jpg" class="blog-image"/>
+					<img src="aces-workflow-for-maya-renderman-and-adobe/image05.jpg" class="blog-image"/>
                 </div>
 				<div class="blog-divider"></div>
             </div>
