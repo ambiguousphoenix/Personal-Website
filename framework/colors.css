@@ -31,20 +31,20 @@
     background-color: #353a3c;
 }
 
-.bgColor-dev {
+.bgColor-default {
+    background-color: #404040;
+}
+
+.bgColor-blue {
 	background-color: #3a435b;
 }
 
-.bgColor-devLight {
+.bgColor-blueLight {
 	background-color: #4C5777;
 }
 
-.bgColor-devDark {
+.bgColor-blueDark {
 	background-color: #2F364A;
-}
-
-.bgColor-default {
-    background-color: #404040;
 }
 
 
@@ -52,6 +52,41 @@
 
 .bgColor-cyberthug {
     background-color: #40332f;
+}
+
+
+/* ---------- Phoenix Nest colours ---------- */
+
+.bgColor-phoenixNest-1a {
+    background-color: #3b3947;
+}
+
+.bgColor-phoenixNest-1b {
+    background-color: #302e3a;
+}
+
+.bgColor-phoenixNest-2a {
+    background-color: #4b475a;
+}
+
+.bgColor-phoenixNest-2b {
+    background-color: #3d3a49;
+}
+
+.bgColor-phoenixNest-3a {
+    background-color: #5b566c;
+}
+
+.bgColor-phoenixNest-3b {
+    background-color: #4a4658;
+}
+
+.bgColor-phoenixNest-4a {
+    background-color: #6c6580;
+}
+
+.bgColor-phoenixNest-4b {
+    background-color: #585268;
 }
 
 

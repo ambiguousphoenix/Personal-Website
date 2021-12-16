@@ -621,11 +621,25 @@ img {
     pointer-events: none;
 }
 
-.pageBanner-fadeDev {
+.pageBanner-fadeDefault {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: linear-gradient(to bottom, #dddddd00, #ddddddff);
+}
+
+.pageBanner-fadeBlue {
     width: 100%;
     height: 100%;
     display: flex;
     background: linear-gradient(to bottom, #3a435b00, #3a435bff);
+}
+
+.pageBanner-fadePhoenixNest {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: linear-gradient(to bottom, #3b394700, #3b3947ff);
 }
 
 .pageBanner-fadeSchool {
@@ -640,13 +654,6 @@ img {
     height: 100%;
     display: flex;
     background: linear-gradient(to bottom, #3f4b4800, #3f4b48ff);
-}
-
-.pageBanner-fadeDefault {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(to bottom, #dddddd00, #ddddddff);
 }
 
 .pageBanner-text {
@@ -983,14 +990,40 @@ img {
 	transition: all 0.2s ease-out;
 }
 
-.cardBlog-title {
+.blog-title {
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.cardBlog-subtitle {
+.blog-subtitle {
     font-size: 1rem;
     font-weight: 500;
+}
+
+.blog-divider {
+	width: 100%;
+	height: 1px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background-color: #b0b0b0;
+}
+
+.blog-heading {
+	margin-top: 5rem;
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.blog-paragraph {
+	font-size: 1rem;
+    font-weight: 500;
+	margin-top: 1rem;
+}
+
+.blog-image {
+	width: 100%;
+	margin-top: 1.5rem;
 }
 
 .cardBlog:hover {
