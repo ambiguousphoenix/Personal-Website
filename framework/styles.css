@@ -306,6 +306,7 @@ img {
 	height: 13%;
 	bottom: 6px;
 	padding: 24px;
+	padding-bottom: 40px;
     background: linear-gradient(to bottom, #0000, #0008);
 	border-radius: 0 0 2.5rem 2.5rem;
     text-shadow: 0rem 0.05rem 0.2rem #000000ff;
