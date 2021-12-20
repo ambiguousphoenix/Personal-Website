@@ -978,14 +978,30 @@ img {
 }
 
 .cardBlog {
+	display: flex;
+	flex-direction: column;
+	width: auto;
 	height: auto;
 	margin-bottom: 1rem;
-    padding: 1rem;
     border-radius: 1.5rem;
-    border: none;
-	user-select: none;
     box-shadow: 0rem 0.1rem 0.5rem #00000050;
+}
+
+.cardBlog-image {
+	width: auto;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.cardBlog-text {
+	width: inherit;
+	height: inherit;
+    padding: 1rem;
+    border-radius: 0 0 1.5rem 1.5rem;
 	transition: all 0.2s ease-out;
+}
+
+.cardBlog:hover > .cardBlog-text {
+	filter: brightness(1.2);
 }
 
 .blog-title {
@@ -1022,10 +1038,6 @@ img {
 .blog-image {
 	width: 100%;
 	margin-top: 1.5rem;
-}
-
-.cardBlog:hover {
-	filter: brightness(1.2);
 }
 
 

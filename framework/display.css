@@ -166,7 +166,9 @@
 
 	.column-blog {
 		flex: 0 0 auto;
-        width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+        width: 30rem;
 	}
 
     .column1 {
@@ -290,7 +292,11 @@
 
 	.column-blog {
 		flex: 0 0 auto;
-        width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+        width: 50%;
 	}
 
     .column1 {
@@ -420,11 +426,6 @@
     .container {
         max-width: 1420px;
     }
-
-	.column-blog {
-		flex: 0 0 auto;
-        width: 100%;
-	}
 
     .column1 {
         flex: 0 0 auto;
