@@ -46,6 +46,10 @@ img {
     pointer-events: none;
 }
 
+span {
+	color: #f8f8f8;
+}
+
 ::selection {
     background: #ffa92760;
 }
@@ -260,7 +264,7 @@ img {
 
 /* ---------- Slideshow ---------- */
 
-.slideshow-container {
+.slideshow {
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
@@ -277,26 +281,29 @@ img {
 	top: 50%;
 	width: auto;
 	margin-top: -44px;
-	padding-top: 32px;
-	padding-bottom: 32px;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 12px;
+	padding-right: 18px;
 	color: white;
 	font-weight: bold;
-	font-size: 18px;
-	transition: 0.12s;
-	border-radius: 0 1rem 1rem 0;
+	font-size: 22px;
+	transition: 0.2s;
+	border-radius: 0 50rem 50rem 0;
 	user-select: none;
-	background-color: #0006;
+	background-color: #000a;
+	opacity: 50%;
 }
 
 .slideshow-next {
 	right: 0;
-	border-radius: 1rem 0 0 1rem;
+	padding-left: 18px;
+	padding-right: 12px;
+	border-radius: 50rem 0 0 50rem;
 }
 
 .slideshow-prev:hover, .slideshow-next:hover {
-	background-color: #000f;
+	opacity: 100%;
 }
 
 .slideshow-info {
@@ -307,8 +314,8 @@ img {
 	bottom: 6px;
 	padding: 24px;
 	padding-bottom: 40px;
-    background: linear-gradient(to bottom, #0000, #0008);
-	border-radius: 0 0 2.5rem 2.5rem;
+    background: linear-gradient(to bottom, #0000, #000a);
+	border-radius: 0 0 1.5rem 1.5rem;
     text-shadow: 0rem 0.05rem 0.2rem #000000ff;
 }
 
@@ -333,85 +340,63 @@ img {
 .glassButton {
 	position: relative;
 	display: flex;
-	height: 8rem;
+	height: 6rem;
     border-radius: 1.5rem;
-    border: none;
     user-select: none;
 	margin-bottom: 1rem;
-    box-shadow: 0rem 0.1rem 0.5rem #00000040;
+    background-color: #ffffff10;
     transition: all 0.2s ease-out;
-}
-
-.glassButtonHome {
-    background-color: #49646620;
-}
-
-.glassButtonHome:hover {
-    background-color: #49646650;
-}
-
-.glassButtonCyberthug {
-	position: relative;
-	display: flex;
-	height: 10rem;
-    border-radius: 1.5rem;
-    border: none;
-    user-select: none;
-	margin-bottom: 2rem;
-    box-shadow: 0rem 0.1rem 0.5rem #00000040;
-    transition: all 0.15s ease-out;
-    background-color: #4d464420;
-}
-
-.glassButtonCyberthug:hover {
-    background-color: #4d464450;
-}
-
-.glassButton-image {
-	padding: 1.5rem;
-	width: 8rem;
-	height: 8rem;
-	filter: invert();
-}
-
-.glassButton-text1 {
-	font-size: 1.7rem;
-    font-weight: 700;
-}
-
-.glassButton-text2 {
-	font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.glassButton-overlay {
-	border-radius: 1.5rem;
-	position: absolute;
-	width: 100%;
-	height: 8rem;
-    opacity: 0%;
-    transition: all 0.2s ease-out;
-}
-
-.glassButton:hover > .glassButton-overlay {
-	opacity: 70%;
-}
-
-.glassButtonCyberthug:hover > .glassButton-overlay {
-	opacity: 50%;
 }
 
 .glassButtonDisabled {
 	position: relative;
 	display: flex;
-	height: 10rem;
+	height: 6rem;
     border-radius: 1.5rem;
-    border: none;
     user-select: none;
-    opacity: 40%;
+	margin-bottom: 1rem;
     background-color: #ffffff10;
-    transform: scale(0.93);
+	opacity: 50%;
+}
+
+.glassButtonSchool {
+	position: relative;
+	display: flex;
+	height: 4rem;
+    border-radius: 1.5rem;
+    user-select: none;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+    background-color: #5d6975;
     transition: all 0.2s ease-out;
+}
+
+.glassButton-link {
+	display: flex;
+	width: 100%;
+}
+
+.glassButton:hover {
+	background-color: #ffffff26;
+}
+
+.glassButtonSchool:hover {
+	background-color: #6d7b8a;
+}
+
+.glassButton-image {
+	padding: 1.5rem;
+	filter: invert();
+}
+
+.glassButton-text1 {
+	font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.glassButton-text2 {
+	font-size: 0.8rem;
+    font-weight: 500;
 }
 
 
@@ -425,21 +410,9 @@ img {
     transition: all 0.2s ease-out;
 }
 
-/*
-.portfolio:hover {
-    transform: scale(0.98);
-}
-
-.portfolio:active {
-    transform: scale(0.9);
-    transition: all 0.12s ease-out;
-}
-*/
-
 .portfolio-image {
     border-radius: 1.5rem;
     transition: all 0.2s ease-out;
-	box-shadow: 0rem 0.1rem 0.5rem #00000040;
 	filter: saturate(0);
 }
 
@@ -452,7 +425,7 @@ img {
 }
 
 .portfolio:hover > .portfolio-overlay {
-    opacity: 70%;
+    opacity: 100%;
 }
 
 
@@ -657,7 +630,7 @@ img {
 
 .pageBanner-text {
     font-size: 3.5rem;
-    color: #fff;
+	font-weight: 700;
     margin: auto;
 }
 
@@ -721,54 +694,6 @@ img {
 
 
 /* ---------- Buttons ---------- */
-
-.workbookButton {
-	position: relative;
-	display: flex;
-	height: 4rem;
-    border-radius: 1.5rem;
-    border: none;
-    user-select: none;
-	margin-bottom: 1rem;
-    transition: all 0.15s ease-out;
-}
-
-.workbookButton:hover {
-    filter: brightness(1.2);
-}
-
-.workbookButtonAlt {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    border: none;
-    user-select: none;
-	margin-bottom: 1rem;
-    transition: all 0.12s ease-out;
-    background-color: #ffffff10;
-	box-shadow: 0rem 0.1rem 0.5rem #00000040;
-}
-
-.workbookButtonAlt:hover {
-    background-color: #ffffff20;
-}
-
-.workbookButtonSub {
-	display: flex;
-}
-
-.workbookButtonSub-text {
-	font-weight: 700;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.workbookButtonSub-textAlt {
-	margin-top: auto;
-	margin-bottom: auto;
-	font-size: 1.1rem;
-}
 
 .gameButton {
 	position: relative;
@@ -960,14 +885,9 @@ img {
 }
 
 .cardSketches {
-	background-size: contain;
 	object-fit: cover;
 	border-radius: 1rem;
-	background-color: #b0b0b0;
-	box-shadow: 0rem 0.1rem 0.25rem #00000040;
-	padding: 0px !important;
-	margin: 8px !important;
-    border: none;
+    transform: scale(0.95);
 }
 
 .cardSketches-image {
@@ -985,7 +905,6 @@ img {
 	height: auto;
 	margin-bottom: 1rem;
     border-radius: 1.5rem;
-    box-shadow: 0rem 0.1rem 0.5rem #00000050;
 }
 
 .cardBlog-image {
@@ -1044,12 +963,6 @@ img {
 
 /* ---------- Extra ---------- */
 
-.slideshow {
-	width: 100%;
-	border-radius: 2.5rem;
-    box-shadow: 0rem 0.1rem 0.25rem #00000040;
-}
-
 
 .animCyberthugB {
   display: flex;
@@ -1092,4 +1005,31 @@ img {
 
 .textLink:hover {
 	color: #D5DCFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shadow-small {
+	box-shadow: 0rem 0.1rem 0.3rem #00000050;
+}
+
+.border-medium {
+	border-radius: 1.5rem;
+}
+
+
+.slideshow-image {
+	border-radius: 1.5rem;
+	box-shadow: 0rem 0.1rem 0.3rem #00000050;
 }
