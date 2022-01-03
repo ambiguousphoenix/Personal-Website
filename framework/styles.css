@@ -459,7 +459,7 @@ span {
 	width: 360px;
 	height: 80px;
 	position: relative;
-	transition: all 0.2s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 .navbarLogo-text {
@@ -474,13 +474,13 @@ span {
     height: 80px;
     justify-content: left;
     position: absolute;
-    transition: all 0.15s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .navbarLogo-image {
     position: absolute;
 	filter: saturate(0) opacity(0.5);
-	transition: all 0.15s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 .navbarLogo:hover > .navbarLogo-image {
@@ -534,7 +534,7 @@ span {
 	overflow: hidden;
 	opacity: 50%;
     background-color: #ffffff00;
-	transition: all 0.15s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 .navbarLinks-other:hover {
@@ -549,7 +549,7 @@ span {
 	width: 48px;
     height: 100%;
     overflow: hidden;
-	transition: all 0.15s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 .navbarLinks-image {
@@ -560,7 +560,8 @@ span {
 	margin-left: 0.5rem;
 	color: #fff;
 	opacity: 100%;
-	transition: all 0.15s ease-out;
+	overflow: hidden;
+	transition: all 0.1s ease-out;
 }
 
 
@@ -604,14 +605,14 @@ span {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #3a435b00, #3a435bff);
+    background: linear-gradient(to bottom, #0004, #3a435b);
 }
 
 .pageBanner-fadePhoenixNest {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #3b394700, #3b3947ff);
+    background: linear-gradient(to bottom, #0008, #3b3947);
 }
 
 .pageBanner-fadeSchool {
@@ -646,8 +647,8 @@ span {
     border-radius: 16px;
 	background-color: #0009;
     padding: 2px;
-    width: 188px;
-    height: 48px;
+    width: 264px;
+    height: 56px;
     overflow: hidden;
 	margin-top: 2.5rem;
     margin-left: auto;
@@ -662,7 +663,7 @@ span {
 	border-color: #888;
     border-radius: 16px;
     padding: 2px;
-    width: 188px;
+    width: 248px;
     height: 48px;
     overflow: hidden;
     margin-left: auto;
@@ -670,15 +671,37 @@ span {
     user-select: none;
 }
 
-.socialMediaLink {
+.socialMediaHome-link {
+    background-color: #ffffff00;
+    width: 64px;
+    height: 48px;
+    transition: all 0.1s ease-out;
+}
+
+.socialMediaNavbar-link {
     background-color: #ffffff00;
     width: 60px;
     height: 40px;
-    transition: all 0.15s ease-out;
+    transition: all 0.1s ease-out;
 }
 
-.socialMediaLink:hover {
+.socialMediaHome-link:hover {
     background-color: #ffffff48;
+}
+
+.socialMediaNavbar-link:hover {
+    background-color: #ffffff48;
+}
+
+.socialMediaHome-image {
+	filter: invert();
+	width: 64px;
+	height: 48px;
+	padding: 8px;
+	display: flex;
+    user-select: none;
+    pointer-events: auto !important;
+    transition: all 0.1s ease-out;
 }
 
 .socialMediaLink-image {
@@ -688,7 +711,7 @@ span {
     height: 40px;
     user-select: none;
     pointer-events: auto !important;
-    transition: all 0.15s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 

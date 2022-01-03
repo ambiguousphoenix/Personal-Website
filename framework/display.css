@@ -255,7 +255,7 @@
 
 /* ---------- Above 960px width ---------- */
 
-@media (min-width: 960px) {
+@media (min-width: 980px) {
 
     .navbarDesktop {
         display: flex;
@@ -514,7 +514,7 @@
 }
 
 
-@media (max-width: 1460px) {
+@media (max-width: 1400px) {
 	.navbarLinks-other {
 		width: 48px !important;
 	}
