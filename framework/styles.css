@@ -400,6 +400,30 @@ span {
 }
 
 
+/* ---------- Gradient buttons ---------- */
+
+.gradientButton {
+	position: relative;
+	display: flex;
+	height: auto;
+    border-radius: 1.5rem;
+    user-select: none;
+	margin-bottom: 1rem;
+	background-image: linear-gradient(to bottom, #ffffff10, #ffffff10);
+	box-shadow: 0rem 0.1rem 0.5rem #00000050;
+}
+
+.gradientButton-background {
+	border-radius: 1.5rem;
+	background-image: linear-gradient(to bottom, #ffffff30, #ffffff00);
+	opacity: 0%;
+	transition: all 0.2s ease-out;
+}
+
+.gradientButton-background:hover {
+	opacity: 100%;
+}
+
 
 /* ---------- Portfolio buttons ---------- */
 
