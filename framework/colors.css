@@ -28,7 +28,7 @@
 }
 
 .bgColor-black {
-    background-color: #000000;
+    background-color: #202020;
 }
 
 .bgColor-blueGrey {
@@ -168,6 +168,10 @@
 
 .textColor-primary {
     color: #f8f8f8;
+}
+
+.textColor-blog {
+    color: #e0e0e0;
 }
 
 .textColor-secondary {

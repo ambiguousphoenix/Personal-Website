@@ -68,12 +68,13 @@
         width: 100%;
     }
 
-	.column2-80 {
+	.column2-wiki1 {
         flex: 0 0 auto;
-        width: 100%;
+        width: 0px;
+		display: none;
     }
 
-	.column2-20 {
+	.column2-wiki2 {
         flex: 0 0 auto;
         width: 100%;
     }
@@ -142,6 +143,10 @@
 
 @media (min-width: 520px) {
 
+	.pageBanner-text {
+	    font-size: 3.5rem;
+	}
+
     .navbarDesktop {
         display: none;
     }
@@ -207,12 +212,13 @@
         width: 100%;
     }
 
-	.column2-80 {
+	.column2-wiki1 {
         flex: 0 0 auto;
-        width: 100%;
+        width: 0px;
+		display: none;
     }
 
-	.column2-20 {
+	.column2-wiki2 {
         flex: 0 0 auto;
         width: 100%;
     }
@@ -347,14 +353,15 @@
 		padding-right: 2rem;
     }
 
-	.column2-80 {
+	.column2-wiki1 {
         flex: 0 0 auto;
-        width: 100%;
+        width: 250px;
+		display: block;
     }
 
-	.column2-20 {
+	.column2-wiki2 {
         flex: 0 0 auto;
-        width: 100%;
+        width: auto;
     }
 
 	.columnCyberthugA {
@@ -483,15 +490,16 @@
 		padding-right: 2rem;
     }
 
-	.column2-80 {
+	.column2-wiki1 {
         flex: 0 0 auto;
-        width: 80%;
+        width: 250px;
+		display: block;
 		padding-right: 2rem;
     }
 
-	.column2-20 {
+	.column2-wiki2 {
         flex: 0 0 auto;
-        width: 20%;
+        width: auto;
 		padding-right: 2rem;
     }
 

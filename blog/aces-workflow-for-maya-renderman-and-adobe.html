@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>AmbiguousPhoenix</title>
+        <title>TEMP_USERNAME</title>
         <link rel="icon" type="image/png" href="../assets/favicon.png" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
 					<img class="navbarLogo-image" src="../assets/vector/navbarHexagons.svg"/>
 					<a href="../index.html">
                         <div class="navbarLogo-text">
-                            <span>AmbiguousPhoenix</span>
+                            <span>TEMP_USERNAME</span>
                         </div>
                     </a>
 				</div>
@@ -35,7 +35,7 @@
 					</a>
 					<a href="../phoenixNest.html">
 						<div class="navbarLinks-other" style="width: 158px;">
-							<img class="navbarLinks-image" src="../assets/vector/phoenixNest.svg"/>
+							<img class="navbarLinks-image" src="../assets/vector/games.svg"/>
 							<span class="navbarLinks-text">Phoenix Nest</span>
 						</div>
 					</a>
@@ -71,18 +71,13 @@
                             <img class="socialMediaLink-image" src="../assets/vector/youtube.svg"/>
                         </a>
                     </div>
-					<div class="socialMediaNavbar-link" style="border-radius: 6px;">
-                        <a href="https://www.deviantart.com/ambiguousphoenix">
-                            <img class="socialMediaLink-image" src="../assets/vector/deviantArt.svg"/>
-                        </a>
-                    </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px;">
                         <a href="https://twitter.com/ambiguousfeenix">
                             <img class="socialMediaLink-image" src="../assets/vector/twitter.svg"/>
                         </a>
                     </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px 13px 13px 6px;">
-                        <a href="https://github.com/ambiguousphoenix">
+                        <a href="https://github.com/TEMP_USERNAME">
                             <img class="socialMediaLink-image" src="../assets/vector/github.svg"/>
                         </a>
                     </div>
@@ -98,7 +93,7 @@
 					<img class="navbarLogo-image" src="../assets/vector/navbarHexagons.svg"/>
 					<a href="../index.html">
                         <div class="navbarLogo-text">
-                            <span>AmbiguousPhoenix</span>
+                            <span>TEMP_USERNAME</span>
                         </div>
                     </a>
 				</div>
@@ -111,7 +106,7 @@
 					</a>
 					<a href="../phoenixNest.html">
 						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/phoenixNest.svg"/>
+							<img class="navbarLinks-image" src="../assets/vector/games.svg"/>
 						</div>
 					</a>
 					<div class="navbarLinksDividerDesktop"></div>
@@ -145,7 +140,7 @@
 
 
 		<!-- Blog post -->
-        <section class="section">
+        <section class="section bgColor-blueDark">
             <div class="container-blogPost">
                 <span class="section-heading textColor-white" style="text-align: left;">ACES workflow for Maya, RenderMan and Adobe</span>
 				<p class="textColor-secondary">16 December 2021</p>
@@ -155,7 +150,7 @@
 				</a>
 				<div class="blog-divider"></div>
                 <div class="row">
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						In this article I’ll be explaining the sRGB and ACES colour spaces, the difference between linear and gamma lighting, and how to set up Maya, RenderMan, Photoshop and After Effects correctly to ensure a consistent workflow for your renders.
 						<br><br>
 						This is my software of preference that I use for most of my work since October 2017. Why you ask? Because Maya is industry-standard and free for students, and RenderMan is free for everyone, as long as it’s for non-commercial use. RenderMan is the renderer I insist on using whenever I can, mainly due to brand loyalty to its creators over at Pixar.
@@ -165,7 +160,7 @@
 						With the promotion out of the way, let’s begin.
 					</p>
 	                <span class="blog-heading textColor-white">What are colour spaces?</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						A fundamental part of any kind of digital art is getting your colours right, and part of this involves picking a colour space.
 						<br><br>
 						sRGB is the standard choice these days for photos and videos on the internet. Based on the diagram below, it might not seem like it supports that many colours, but if you think about the most beautiful photo you’ve seen on Flickr or Instagram, chances are it was uploaded as an sRGB jpeg.
@@ -176,7 +171,7 @@
 					</p>
 					<img src="aces-workflow-for-maya-renderman-and-adobe/image02.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">How does light work?</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						The human eye doesn’t see light in a linear fashion. This makes sense for survival reasons as it means we can see dark areas lighter than they really are.
 						<br><br>
 						Consider the diagram below. In order for light to affect stuff in a CGI environment properly, it needs to be calculated linearly.
@@ -187,7 +182,7 @@
 					</p>
 					<img src="aces-workflow-for-maya-renderman-and-adobe/image03.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">Preparing RenderMan</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						No matter what software you decide to use to view your rendered images, first you’ll need to setup Maya and RenderMan to export them properly.
 						<br><br>
 						First, open the Render Settings window, navigate to the RenderMan>Features tab, scroll down to OpenColorIO, and set the configuration to ACES-1.2. While you’re there, double-check that you’re rendering to an appropriate format like OpenEXR.
@@ -195,25 +190,25 @@
 						After this, open the Texture Manager and make sure all of your textures are converted to the ACEScg colour space by clicking the refresh button in the top-left. This might take a moment depending on your textures.
 					</p>
 					<span class="blog-heading textColor-white">Preparing Maya</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						Open the Maya preferences window and find the Colour Management page.
 						<br><br>
 						The section we’re interested in here is the second one, with 3 drop-down menus. They should be set to ACES-ACEScg, ACES and sRGB.
 					</p>
 					<span class="blog-heading textColor-white">Preparing OpenColorIO</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						Before you get started with Photoshop and After Effects, you’ll need to install the OpenColorIO plugins, along with the configuration files prepared by RenderMan.
 						<br><br>
 						Everything you need can be found in this archive I put together:
 						<br>
-						<a class="textLink" href="https://www.ambiguousphoenix.com/files/lukes-renderman-aces.zip">Luke's RenderMan ACES.zip</a>
+						<a class="textLink" href="https://www.TEMP_USERNAME.com/files/lukes-renderman-aces.zip">lukes-renderman-aces.zip</a>
 						<br><br>
 						Credit goes to Fnordware for the plugins.
 						<br><br>
 						Extract the 8BF and AEX files to Photoshop and After Effects’ plugin folders respectively, and move the downloaded folder to “C:/ProgramData/OpenColorIO/” (you might have to create the directory).
 					</p>
 					<span class="blog-heading textColor-white">Converting to sRGB in Photoshop</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						Bring up your rendered EXR, and open the OpenColorIO window from the Filters menu.
 						<br><br>
 						Here you would select renderman-aces-1.2 from the configuration menu, switch to Display mode, and set the last 3 menus to match your Maya preferences.
@@ -222,7 +217,7 @@
 					</p>
 					<img src="aces-workflow-for-maya-renderman-and-adobe/image04.jpg" class="blog-image"/>
 					<span class="blog-heading textColor-white">Converting to sRGB in After Effects</span>
-					<p class="blog-paragraph textColor-white">
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						The process in After Effects is more straight-forward. Unlike Photoshop, here you’re given the option to leave the EXR’s colour alone. This is what you want, so right-click the imported EXR in the project panel and choose Interpret Footage>Main. Click the box that says Preserve RGB.
 						<br><br>
 						If you installed the plugin correctly, the OpenColorIO effect should be near the bottom of the Effects panel, under Utilities. Drag it onto your footage, and in the effect’s properties, change the mode to Display and set everything else to match your Maya preferences.
@@ -239,7 +234,7 @@
         <!-- Copyright -->
         <div class="footer">
             <div class="colorStrip"></div>
-            <span class="copyright">&copy; AmbiguousPhoenix 2021</span>
+            <span class="copyright">&copy; TEMP_USERNAME 2021</span>
         </div>
 
     </body>

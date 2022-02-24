@@ -90,7 +90,7 @@ span {
 
 .section {
 	padding-top: 4rem;
-	padding-bottom: 10rem;
+	padding-bottom: 20rem;
 }
 
 .section-heading {
@@ -257,8 +257,8 @@ span {
 .backgroundFillNoise {
     background-attachment: fixed;
     background-position: center;
-    background-repeat: round;
-    background-size: contain;
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 
@@ -288,7 +288,7 @@ span {
 	color: white;
 	font-weight: bold;
 	font-size: 22px;
-	transition: 0.2s;
+	transition: all 0.15s ease-out;
 	border-radius: 0 50rem 50rem 0;
 	user-select: none;
 	background-color: #000a;
@@ -344,8 +344,8 @@ span {
     border-radius: 1.5rem;
     user-select: none;
 	margin-bottom: 1rem;
-    background-color: #ffffff10;
-    transition: all 0.2s ease-out;
+    background-color: #ffffff08;
+    transition: all 0.15s ease-out;
 }
 
 .glassButtonDisabled {
@@ -368,7 +368,30 @@ span {
 	margin-top: 0.5rem;
 	margin-bottom: 1rem;
     background-color: #5d6975;
-    transition: all 0.2s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.glassButtonPhoenixNest {
+	position: relative;
+	display: flex;
+	height: 6rem;
+    border-radius: 1.5rem;
+    user-select: none;
+	margin-bottom: 1rem;
+    background-color: #4b475a;
+    transition: all 0.15s ease-out;
+}
+
+.glassButtonPhoenixNest-download {
+	height: 4rem;
+	padding: 1rem;
+	display: flex;
+	background-color: #3d3a49;
+	transition: all 0.15s ease-out;
+}
+
+.glassButtonPhoenixNest-download:hover {
+	background-color: #4b475a;
 }
 
 .glassButton-link {
@@ -377,7 +400,7 @@ span {
 }
 
 .glassButton:hover {
-	background-color: #ffffff26;
+	background-color: #ffffff20;
 }
 
 .glassButtonSchool:hover {
@@ -417,7 +440,7 @@ span {
 	border-radius: 1.5rem;
 	background-image: linear-gradient(to bottom, #ffffff30, #ffffff00);
 	opacity: 0%;
-	transition: all 0.2s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .gradientButton-background:hover {
@@ -431,12 +454,12 @@ span {
     position: relative;
     border-radius: 1.5rem;
     transform: scale(0.93);
-    transition: all 0.2s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .portfolio-image {
     border-radius: 1.5rem;
-    transition: all 0.2s ease-out;
+    transition: all 0.15s ease-out;
 	filter: saturate(0);
 }
 
@@ -483,7 +506,7 @@ span {
 	width: 360px;
 	height: 80px;
 	position: relative;
-	transition: all 0.1s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .navbarLogo-text {
@@ -498,13 +521,13 @@ span {
     height: 80px;
     justify-content: left;
     position: absolute;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .navbarLogo-image {
     position: absolute;
 	filter: saturate(0) opacity(0.5);
-	transition: all 0.1s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .navbarLogo:hover > .navbarLogo-image {
@@ -558,7 +581,7 @@ span {
 	overflow: hidden;
 	opacity: 50%;
     background-color: #ffffff00;
-	transition: all 0.1s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .navbarLinks-other:hover {
@@ -573,7 +596,7 @@ span {
 	width: 48px;
     height: 100%;
     overflow: hidden;
-	transition: all 0.1s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .navbarLinks-image {
@@ -581,11 +604,12 @@ span {
 }
 
 .navbarLinks-text {
+	font-weight: 500;
 	margin-left: 0.5rem;
 	color: #fff;
 	opacity: 100%;
 	overflow: hidden;
-	transition: all 0.1s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 
@@ -654,7 +678,7 @@ span {
 }
 
 .pageBanner-text {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 	font-weight: 700;
     margin: auto;
 }
@@ -669,9 +693,9 @@ span {
 	border-width: 2px;
 	border-color: #888;
     border-radius: 16px;
-	background-color: #0009;
+	background-color: #222;
     padding: 2px;
-    width: 264px;
+    width: 200px;
     height: 56px;
     overflow: hidden;
 	margin-top: 2.5rem;
@@ -687,7 +711,7 @@ span {
 	border-color: #888;
     border-radius: 16px;
     padding: 2px;
-    width: 248px;
+    width: 188px;
     height: 48px;
     overflow: hidden;
     margin-left: auto;
@@ -699,14 +723,14 @@ span {
     background-color: #ffffff00;
     width: 64px;
     height: 48px;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .socialMediaNavbar-link {
     background-color: #ffffff00;
     width: 60px;
     height: 40px;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .socialMediaHome-link:hover {
@@ -725,7 +749,7 @@ span {
 	display: flex;
     user-select: none;
     pointer-events: auto !important;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .socialMediaLink-image {
@@ -735,7 +759,7 @@ span {
     height: 40px;
     user-select: none;
     pointer-events: auto !important;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 
@@ -750,7 +774,7 @@ span {
     border: none;
     user-select: none;
 	margin-bottom: 1rem;
-    transition: all 0.12s ease-out;
+    transition: all 0.15s ease-out;
     background-color: #ffffff10;
 	box-shadow: 0rem 0.1rem 0.5rem #00000040;
     transform: scale(0.95);
@@ -833,8 +857,7 @@ span {
     height: 4rem;
     display: flex;
     border-radius: 1.5rem;
-    transition: all 0.12s;
-    transition: all 0.1s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .cardStandard-buttonSub-image {
@@ -964,7 +987,7 @@ span {
 	height: inherit;
     padding: 1rem;
     border-radius: 0 0 1.5rem 1.5rem;
-	transition: all 0.2s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .cardBlog:hover > .cardBlog-text {
@@ -1044,7 +1067,7 @@ span {
 
 .column4-block {
 	background-color: #222a;
-	transition: all 0.2s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .column4:hover > .column4-block {
