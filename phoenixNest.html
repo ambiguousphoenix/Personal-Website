@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bgColor-phoenixNest-1a" onload="document.body.style.opacity='1'">
+    <body class="bg-phoenixNest" onload="document.body.style.opacity='1'">
 
 		<!-- Navbar Desktop-->
         <nav class="navbarDesktop">
@@ -161,13 +161,13 @@
 				<div class="row">
 
 					<div class="column3" style="transform: scale(0.95);">
-						<div class="glassButtonPhoenixNest shadow-small" style="height: auto;">
+						<div class="card bg-phoenixNest2 disabled" style="height: auto; padding: 0;">
 							<div>
-								<img src="assets/vector/windows11.svg" style="width: 25%; margin-top: 3rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
-								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; margin-bottom: 3rem;">Windows</span>
-								<div style="width: 100%; height: 2px; background-color: #fff3;"></div>
+								<img src="assets/vector/windows11.svg" style="width: 25%; padding-top: 4rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
+								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; padding-bottom: 4rem;">Windows</span>
+								<div class="divider"></div>
 								<a href=" ">
-									<div class="glassButtonPhoenixNest-download" style="border-radius: 0 0 1.5rem 1.5rem;">
+									<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
 										<img src="assets/vector/download.svg" style="filter: invert(); height: 100%;"/>
 										<span style="line-height: 2rem; margin-left: 1rem;">Standard download</span>
 									</div>
@@ -177,21 +177,21 @@
 					</div>
 
 					<div class="column3" style="transform: scale(0.95);">
-						<div class="glassButtonPhoenixNest shadow-small" style="height: auto;">
+						<div class="card bg-phoenixNest2 disabled" style="height: auto; padding: 0; ">
 							<div>
-								<img src="assets/vector/linux2.svg" style="width: 25%; margin-top: 3rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
-								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; margin-bottom: 3rem;">Linux</span>
-								<div style="width: 100%; height: 2px; background-color: #fff3;"></div>
+								<img src="assets/vector/linux2.svg" style="width: 25%; padding-top: 4rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
+								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; padding-bottom: 4rem;">Linux</span>
+								<div class="divider"></div>
 								<a href=" ">
-									<div class="glassButtonPhoenixNest-download">
+									<div class="buttonDownload">
 										<img src="assets/vector/download.svg" style="filter: invert(); height: 100%;"/>
 										<span style="line-height: 2rem; margin-left: 1rem;">Standard download</span>
 									</div>
 								</a>
 								<a href="https://snapcraft.io/phoenix-nest" target="_blank">
-									<div class="glassButtonPhoenixNest-download" style="border-radius: 0 0 1.5rem 1.5rem;">
+									<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
 										<img src="assets/vector/snapcraft.svg" style="height: 100%;"/>
-										<span style="line-height: 2rem; margin-left: 1rem;">Snap edition</span>
+										<span style="line-height: 2rem; margin-left: 1rem;">Snap Store edition</span>
 									</div>
 								</a>
 							</div>
@@ -199,15 +199,21 @@
 					</div>
 
 					<div class="column3" style="transform: scale(0.95);">
-						<div class="glassButtonPhoenixNest shadow-small" style="height: auto; pointer-events: none; opacity: 50%;">
+						<div class="card bg-phoenixNest2 disabled" style="height: auto; padding: 0;">
 							<div>
-								<img src="assets/vector/android.svg" style="width: 25%; margin-top: 3rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
-								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; margin-bottom: 3rem;">Android</span>
-								<div style="width: 100%; height: 2px; background-color: #fff3;"></div>
+								<img src="assets/vector/android.svg" style="width: 25%; padding-top: 4rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
+								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; padding-bottom: 4rem;">Android</span>
+								<div class="divider"></div>
 								<a href=" ">
-									<div class="glassButtonPhoenixNest-download" style="border-radius: 0 0 1.5rem 1.5rem;">
+									<div class="buttonDownload">
 										<img src="assets/vector/download.svg" style="filter: invert(); height: 100%;"/>
 										<span style="line-height: 2rem; margin-left: 1rem;">Standard download</span>
+									</div>
+								</a>
+								<a href=" " target="_blank">
+									<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
+										<img src="assets/vector/googlePlay.svg" style="height: 100%;"/>
+										<span style="line-height: 2rem; margin-left: 1rem;">Google Play edition</span>
 									</div>
 								</a>
 							</div>
@@ -222,7 +228,7 @@
         <!-- Copyright -->
         <div class="footer">
             <div class="colorStrip"></div>
-            <span class="copyright">&copy; TEMP_USERNAME 2021</span>
+            <span class="copyright">&copy; TEMP_USERNAME 2022</span>
         </div>
 
     </body>

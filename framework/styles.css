@@ -51,7 +51,7 @@ span {
 }
 
 ::selection {
-    background: #ffa92760;
+    background: #fff4;
 }
 
 .navbarDesktop > .container,
@@ -310,19 +310,20 @@ span {
 	display: flex;
 	position: absolute;
 	width: 100%;
-	height: 13%;
+	height: 48px;
 	bottom: 6px;
-	padding: 24px;
-	padding-bottom: 40px;
-    background: linear-gradient(to bottom, #0000, #000a);
-	border-radius: 0 0 1.5rem 1.5rem;
-    text-shadow: 0rem 0.05rem 0.2rem #000000ff;
+	padding-left: 16px;
+	padding-right: 16px;
+    background-color: #000a;
+	border-radius: 0 0 1rem 1rem;
 }
 
 .slideshow-text {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 700;
+	line-height: 48px;
+	overflow: hidden;
 }
 
 .slideshow-counter {
@@ -332,6 +333,7 @@ span {
 	margin-left: auto;
 	margin-right: 0;
 	align: right;
+	line-height: 48px;
 }
 
 
@@ -371,29 +373,6 @@ span {
     transition: all 0.15s ease-out;
 }
 
-.glassButtonPhoenixNest {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    user-select: none;
-	margin-bottom: 1rem;
-    background-color: #4b475a;
-    transition: all 0.15s ease-out;
-}
-
-.glassButtonPhoenixNest-download {
-	height: 4rem;
-	padding: 1rem;
-	display: flex;
-	background-color: #3d3a49;
-	transition: all 0.15s ease-out;
-}
-
-.glassButtonPhoenixNest-download:hover {
-	background-color: #4b475a;
-}
-
 .glassButtonSchool {
 	position: relative;
 	display: flex;
@@ -405,16 +384,28 @@ span {
     transition: all 0.15s ease-out;
 }
 
-.glassButtonSchool-download {
+.buttonDownload {
 	height: 4rem;
 	padding: 1rem;
 	display: flex;
-	background-color: #3f474f;
+	background-color: #0003;
 	transition: all 0.15s ease-out;
 }
 
-.glassButtonSchool-download:hover {
-	background-color: #4d5761;
+.buttonDownload:hover {
+	background-color: #0000;
+}
+
+.buttonDownloadIntense {
+	height: 4rem;
+	padding: 1rem;
+	display: flex;
+	background-color: #0006;
+	transition: all 0.15s ease-out;
+}
+
+.buttonDownloadIntense:hover {
+	background-color: #0000;
 }
 
 .glassButton-link {
@@ -786,35 +777,9 @@ span {
 }
 
 
-
-/* ---------- Buttons ---------- */
-
-.gameButton {
-	position: relative;
-	display: flex;
-	height: 6rem;
-    border-radius: 1.5rem;
-    border: none;
-    user-select: none;
-	margin-bottom: 1rem;
-    transition: all 0.15s ease-out;
-    background-color: #ffffff10;
-	box-shadow: 0rem 0.1rem 0.5rem #00000040;
-    transform: scale(0.95);
-}
-
-.gameButton:hover {
-	background-color: #ffffff20;
-}
-
-.gameButtonSub {
-	display: flex;
-}
-
-
 /* ---------- Cards ---------- */
 
-.cardStandard {
+.card {
     padding: 1rem;
     border-radius: 1.5rem;
     border: none;
@@ -822,58 +787,58 @@ span {
     transform: scale(0.95);
 }
 
-.cardStandard-title {
+.card-title {
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.cardStandard-subtitle {
+.card-subtitle {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.cardStandard-image {
+.card-image {
     background-color: #394048;
     width: 100%;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 0.67rem;
 }
 
-.cardStandard-slideshow {
+.card-slideshow {
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 0.67rem;
 }
 
-.cardStandard-video {
+.card-video {
     position: relative;
     padding-bottom: 75%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.cardStandard-youtube {
+.card-youtube {
     width: 100%;
     height: 100%;
     position: absolute;
     border-radius: 1.5rem;
 }
 
-.cardStandard-description {
+.card-description {
     font-size: 1rem;
     font-weight: 500;
     overflow: hidden;
     height: 15rem;
 }
 
-.cardStandard-button {
+.card-button {
 	width: auto;
     display: flex;
     padding: 0.5rem;
 }
 
-.cardStandard-buttonSub {
+.card-buttonSub {
     font-size: 1rem;
     font-weight: 700;
 	width: auto;
@@ -883,7 +848,7 @@ span {
     transition: all 0.15s ease-out;
 }
 
-.cardStandard-buttonSub-image {
+.card-buttonSub-image {
 	height: 100%;
 	padding: 1rem;
     display: flex;
@@ -892,25 +857,25 @@ span {
     user-select: none;
 }
 
-.cardStandard-buttonSub-text {
+.card-buttonSub-text {
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 2rem;
     user-select: none;
 }
 
-.cardStandard-buttonSub:hover {
+.card-buttonSub:hover {
     filter: brightness(1.2);
 }
 
-.cardStandard-buttonDisabled {
+.card-buttonDisabled {
 	opacity: 50%;
 	width: auto;
     display: flex;
     padding: 0.5rem;
 }
 
-.cardStandard-buttonSubDisabled {
+.card-buttonSubDisabled {
     background-color: #50616D;
     font-size: 1rem;
     font-weight: 700;
@@ -918,77 +883,6 @@ span {
     height: 4rem;
     display: flex;
     border-radius: 1.5rem;
-}
-
-.cardPhotography {
-    padding: 1rem;
-    border-radius: 1.5rem;
-    border: none;
-    box-shadow: 0rem 0.1rem 0.5rem #00000050;
-    transform: scale(0.95);
-}
-
-.cardPhotography-image {
-    user-select: none;
-    width: 100%;
-    border-radius: 1.5rem 1.5rem 0 0;
-    margin-bottom: 0rem;
-}
-
-.cardPhotography-metadata {
-    font-size: 1rem;
-    font-weight: 500;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    float: center;
-}
-
-.cardPhotography-metadataSub {
-    width: 33%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-}
-
-.cardPhotography-metadataSub-image {
-    filter: invert(1);
-	padding: 0.25rem;
-    height: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    user-select: none;
-    pointer-events: none;
-}
-
-.cardPhotography-metadataSub-text {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.cardPhotography-description {
-    font-size: 1rem;
-    font-weight: 500;
-    overflow: hidden;
-    padding: 0.75rem 1rem 0.5rem 1rem;
-    border-radius: 0 0 1.5rem 1.5rem;
-    height: 10.5rem;
-}
-
-.cardSketches {
-	object-fit: cover;
-	border-radius: 1rem;
-    transform: scale(0.95);
-}
-
-.cardSketches-image {
-	padding: 0px !important;
-	margin: 0px !important;
-    user-select: none;
-    width: 100%;
-	height: 100%;
 }
 
 .cardBlog {
@@ -1101,34 +995,14 @@ span {
 	font-weight: 700;
 	text-decoration: underline;
 	color: #a3b3ff;
+	padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+	border-radius: 0.67rem;
 	transition: all 0.15s ease-out;
 }
 
 .textLink:hover {
-	color: #D5DCFF;
+	background-color: #a3b3ff30;
 }
-
-.textLink2 {
-	color: #a0a0a0;
-	transition: all 0.15s ease-out;
-}
-
-.textLink2:hover {
-	color: #e0e0e0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .shadow-small {
 	box-shadow: 0rem 0.1rem 0.3rem #00000050;
@@ -1140,5 +1014,75 @@ span {
 
 
 .slideshow-image {
-	border-radius: 1.5rem;
+	border-radius: 1rem;
+}
+
+.slideshow-image2 {
+	border-radius: 1rem;
+	box-shadow: 0rem 0.1rem 0.3rem #00000050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- New ----- */
+
+.divider {
+	width: 100%;
+	height: 2px;
+	background-color: #fff3;
+}
+
+.disabled {
+	opacity: 50%;
+	pointer-events: none;
 }

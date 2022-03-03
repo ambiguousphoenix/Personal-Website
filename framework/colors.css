@@ -3,164 +3,100 @@
 
 /* ---------- Background colours ---------- */
 
-.bgColor-primary {
+.bg-primary {
     background-color: #212121;
 }
 
-.bgColor-secondary {
+.bg-secondary {
     background-color: #303030;
 }
 
-.bgColor-white {
+.bg-white {
     background-color: #e0e0e0;
 }
 
-.bgColor-lightGrey {
+.bg-lightGrey {
     background-color: #dddddd;
 }
 
-.bgColor-grey {
+.bg-grey {
 	background-color: #d0d0d0;
 }
 
-.bgColor-darkGrey {
+.bg-darkGrey {
     background-color: #202020;
 }
 
-.bgColor-black {
+.bg-black {
     background-color: #202020;
 }
 
-.bgColor-blueGrey {
+.bg-blueGrey {
     background-color: #353a3c;
 }
 
-.bgColor-default {
-    background-color: #404040;
+.bg-default {
+    background-color: #303030;
 }
 
-.bgColor-blue {
+.bg-blog {
 	background-color: #3a435b;
 }
 
-.bgColor-blueLight {
+.bg-blueLight {
 	background-color: #4C5777;
 }
 
-.bgColor-blueDark {
+.bg-blueDark {
 	background-color: #2F364A;
 }
 
 
 /* ---------- Cyberthug colours ---------- */
 
-.bgColor-cyberthug {
+.bg-cyberthug {
     background-color: #40332f;
 }
 
 
 /* ---------- Phoenix Nest colours ---------- */
 
-.bgColor-phoenixNest-1a {
+.bg-phoenixNest {
     background-color: #3b3947;
 }
 
-.bgColor-phoenixNest-1b {
-    background-color: #302e3a;
-}
-
-.bgColor-phoenixNest-2a {
+.bg-phoenixNest2 {
     background-color: #4b475a;
-}
-
-.bgColor-phoenixNest-2b {
-    background-color: #3d3a49;
-}
-
-.bgColor-phoenixNest-3a {
-    background-color: #5b566c;
-}
-
-.bgColor-phoenixNest-3b {
-    background-color: #4a4658;
-}
-
-.bgColor-phoenixNest-4a {
-    background-color: #6c6580;
-}
-
-.bgColor-phoenixNest-4b {
-    background-color: #585268;
 }
 
 
 /* ---------- School colours ---------- */
 
-.bgColor-school-1a {
+.bg-school {
     background-color: #3d454d;
 }
 
-.bgColor-school-1b {
-    background-color: #32383f;
-}
-
-.bgColor-school-2a {
+.bg-school2 {
     background-color: #4d5761;
 }
 
-.bgColor-school-2b {
-    background-color: #3f474f;
-}
-
-.bgColor-school-3a {
-    background-color: #5d6975;
-}
-
-.bgColor-school-3b {
+.bg-school3 {
     background-color: #4c555f;
 }
 
-.bgColor-school-4a {
-    background-color: #6d7b8a;
-}
-
-.bgColor-school-4b {
-    background-color: #596470;
+.bg-school4 {
+    background-color: #5d6975;
 }
 
 
 /* ---------- Photos colours ---------- */
 
-.bgColor-photos-1a {
+.bg-photos {
     background-color: #3f4b48;
 }
 
-.bgColor-photos-1b {
-    background-color: #333d3a;
-}
-
-.bgColor-photos-2a {
+.bg-photos2 {
     background-color: #505e5a;
-}
-
-.bgColor-photos-2b {
-    background-color: #414c49;
-}
-
-.bgColor-photos-3a {
-    background-color: #60716d;
-}
-
-.bgColor-photos-3b {
-    background-color: #4e5c59;
-}
-
-.bgColor-photos-4a {
-    background-color: #718681;
-}
-
-.bgColor-photos-4b {
-    background-color: #5c6d69;
 }
 
 
@@ -196,4 +132,20 @@
 
 .textColor-link {
 	color: #a3b3ff;
+}
+
+
+
+
+
+
+
+
+
+.darker {
+	background-color: #0003;
+}
+
+.lighter {
+	background-color: #fff3;
 }
