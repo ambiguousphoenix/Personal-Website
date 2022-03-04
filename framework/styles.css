@@ -158,9 +158,9 @@ span {
 }
 
 .featureCyberthug {
-    height: 100vh;
+    height: 30rem;
     padding-top: 25vh;
-    min-height: 1000px;
+    min-height: 30rem;
     position: relative;
     background-image: url("background-cyberthug.jpg");
     background-attachment: fixed;
@@ -1000,6 +1000,16 @@ span {
 
 .textLink:hover {
 	background-color: #a3b3ff30;
+}
+
+.objectLink {
+	padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+	border-radius: 0.67rem;
+	transition: all 0.15s ease-out;
+}
+
+.objectLink:hover {
+	background-color: #ffffff30;
 }
 
 .shadow-small {
