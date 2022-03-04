@@ -1003,13 +1003,29 @@ span {
 }
 
 .objectLink {
-	padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+	padding: 0.5rem;
 	border-radius: 0.67rem;
 	transition: all 0.15s ease-out;
 }
 
 .objectLink:hover {
 	background-color: #ffffff30;
+}
+
+.objectLink-icon {
+	width: 3rem;
+	height: 3rem;
+	display: flex;
+	float: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.objectLink-text {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	margin-left: 1rem;
 }
 
 .shadow-small {
@@ -1093,6 +1109,7 @@ span {
 .disabled {
 	opacity: 50%;
 	pointer-events: none;
+	user-select: none;
 }
 
 .navbarMenu {
@@ -1105,6 +1122,7 @@ span {
     height: 48px;
 	opacity: 50%;
     background-color: #ffffff00;
+	cursor: pointer;
 	transition: all 0.15s ease-out;
 }
 
