@@ -50,3 +50,12 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+function toggleNavbarMenuItems() {
+  var x = document.getElementById("navbarMenuItems");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

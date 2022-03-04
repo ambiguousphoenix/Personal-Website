@@ -16,7 +16,7 @@
     <body class="bg-default" onload="document.body.style.opacity='1', avatar.hidden=false">
 
 		<!-- Navbar Desktop-->
-        <nav class="navbarDesktop">
+        <nav class="navbar">
             <div class="container-fluid" style="padding: 0px !important;">
 				<div class="navbarLogo">
 					<img class="navbarLogo-image" src="assets/vector/navbarHexagons.svg"/>
@@ -39,7 +39,7 @@
 							<span class="navbarLinks-text">Phoenix Nest</span>
 						</div>
 					</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
 					<a href="school.html">
     					<div class="navbarLinks-other" style="width: 108px;">
     						<img class="navbarLinks-image" src="assets/vector/school.svg"/>
@@ -58,7 +58,7 @@
 							<span class="navbarLinks-text">Blog</span>
 						</div>
 					</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
 					<div class="navbarLinks-active" style="width: 72px !important;">
 						<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
 					</div>
@@ -80,55 +80,49 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </nav>
-
-
-		<!-- Navbar Mobile -->
-        <nav class="navbarMobile">
-            <div class="container-fluid" style="padding: 0px !important;">
-                <div class="navbarLogo">
-					<img class="navbarLogo-image" src="assets/vector/navbarHexagons.svg"/>
-					<a href="index.html">
-                        <div class="navbarLogo-text">
-                            <span>TEMP_USERNAME</span>
-                        </div>
-                    </a>
+                <div class="navbarMenu" onclick="toggleNavbarMenuItems()">
+					<img style="filter:invert();" src="assets/vector/menu.svg"/>
 				</div>
-				<div class="navbarDividerMobile"></div>
-                <div class="navbarLinks" style="height: 48px;">
-					<a href="cyberthug.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/cyberthug_small.svg"/>
-						</div>
-					</a>
-					<a href="phoenixNest.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/games.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinksDividerDesktop"></div>
-					<a href="school.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/school.svg"/>
-						</div>
-					</a>
-					<a href="photography.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/camera.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinks-active" style="border-radius: 0rem;">
-						<img class="navbarLinks-image" src="assets/vector/pencil.svg"/>
-					</div>
-					<div class="navbarLinksDividerDesktop"></div>
-					<a href="about.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem; width: 72px !important;">
-							<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
-						</div>
-					</a>
-                </div>
             </div>
+			<div id="navbarMenuItems">
+				<div class="divider"></div>
+				<a href="cyberthug.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/cyberthug_small.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Cyberthug</span>
+					</div>
+				</a>
+				<a href="phoenixNest.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/games.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Phoenix Nest</span>
+					</div>
+				</a>
+				<a href="school.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/school.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
+					</div>
+				</a>
+				<a href="photography.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/camera.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Photography</span>
+					</div>
+				</a>
+				<a href="blog.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/pencil.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Blog</span>
+					</div>
+				</a>
+				<a href="about.html" class="disabled">
+					<div class="buttonDownload">
+						<img src="assets/vector/placeholder.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">About</span>
+					</div>
+				</a>
+			</div>
         </nav>
 
         <div class="colorStrip"></div>

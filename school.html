@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="framework/colors.css">
         <link rel="stylesheet" href="framework/display.css">
         <script src="framework/scripts.js"></script>
-        <link rel="preconnect" href="BREAK//fonts.googleapis.com">
-        <link rel="preconnect" href="BREAK//fonts.gstatic.com" crossorigin>
-        <link href="BREAK//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
     <body class="bg-school" onload="document.body.style.opacity='1'">
 
         <!-- Navbar Desktop-->
-        <nav class="navbarDesktop">
+        <nav class="navbar">
             <div class="container-fluid" style="padding: 0px !important;">
 				<div class="navbarLogo">
 					<img class="navbarLogo-image" src="assets/vector/navbarHexagons.svg"/>
@@ -39,7 +39,7 @@
 							<span class="navbarLinks-text">Phoenix Nest</span>
     					</div>
     				</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
     					<div class="navbarLinks-active" style="width: 108px;">
     						<img class="navbarLinks-image" src="assets/vector/school.svg"/>
 							<span class="navbarLinks-text">School</span>
@@ -56,7 +56,7 @@
 							<span class="navbarLinks-text">Blog</span>
     					</div>
     				</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
     				<a href="about.html">
     					<div class="navbarLinks-other" style="width: 72px !important;">
 							<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
@@ -65,70 +65,64 @@
                 </div>
                 <div class="socialMediaNavbar">
 					<div class="socialMediaNavbar-link" style="border-radius: 13px 6px 6px 13px;">
-                        <a href="BREAK//www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
+                        <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
                             <img class="socialMediaLink-image" src="assets/vector/youtube.svg"/>
                         </a>
                     </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px;">
-                        <a href="BREAK//twitter.com/ambiguousfeenix">
+                        <a href="https://twitter.com/ambiguousfeenix">
                             <img class="socialMediaLink-image" src="assets/vector/twitter.svg"/>
                         </a>
                     </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px 13px 13px 6px;">
-                        <a href="BREAK//github.com/TEMP_USERNAME">
+                        <a href="https://github.com/TEMP_USERNAME">
                             <img class="socialMediaLink-image" src="assets/vector/github.svg"/>
                         </a>
                     </div>
                 </div>
-            </div>
-        </nav>
-
-
-		<!-- Navbar Mobile -->
-        <nav class="navbarMobile">
-            <div class="container-fluid" style="padding: 0px !important;">
-                <div class="navbarLogo">
-					<img class="navbarLogo-image" src="assets/vector/navbarHexagons.svg"/>
-					<a href="index.html">
-                        <div class="navbarLogo-text">
-                            <span>TEMP_USERNAME</span>
-                        </div>
-                    </a>
+                <div class="navbarMenu" onclick="toggleNavbarMenuItems()">
+					<img style="filter:invert();" src="assets/vector/menu.svg"/>
 				</div>
-				<div class="navbarDividerMobile"></div>
-                <div class="navbarLinks" style="height: 48px;">
-					<a href="cyberthug.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/cyberthug_small.svg"/>
-						</div>
-					</a>
-					<a href="phoenixNest.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/games.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinksDividerDesktop"></div>
-					<div class="navbarLinks-active" style="border-radius: 0rem;">
-						<img class="navbarLinks-image" src="assets/vector/school.svg"/>
-					</div>
-					<a href="photos.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/camera.svg"/>
-						</div>
-					</a>
-					<a href="blog.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="assets/vector/pencil.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinksDividerDesktop"></div>
-					<a href="about.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem; width: 72px !important;">
-							<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
-						</div>
-					</a>
-                </div>
             </div>
+			<div id="navbarMenuItems">
+				<div class="divider"></div>
+				<a href="cyberthug.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/cyberthug_small.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Cyberthug</span>
+					</div>
+				</a>
+				<a href="phoenixNest.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/games.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Phoenix Nest</span>
+					</div>
+				</a>
+				<a href="school.html" class="disabled">
+					<div class="buttonDownload">
+						<img src="assets/vector/school.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
+					</div>
+				</a>
+				<a href="photography.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/camera.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Photography</span>
+					</div>
+				</a>
+				<a href="blog.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/pencil.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Blog</span>
+					</div>
+				</a>
+				<a href="about.html">
+					<div class="buttonDownload">
+						<img src="assets/vector/placeholder.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">About</span>
+					</div>
+				</a>
+			</div>
         </nav>
 
 
@@ -276,7 +270,7 @@
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Creative Studio</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/Pq1eVIbO2IA?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/Pq1eVIbO2IA?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This paper required making animations that were a combination of a theme chosen by the student and themes provided weekly by the tutor. I chose "calm" as my overall theme.</span>
@@ -304,7 +298,7 @@
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Image Making Studio</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/u0wxSIcb-mk?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/u0wxSIcb-mk?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This short video was a compilation of various image making skills and visual techniques learnt throughout the paper. The focus was using them strategically to tell a narrative about your interests or life story.</span>
@@ -357,7 +351,7 @@
 					<div class="column3 card bg-school2">
                         <span class="card-title">Electric Scooter Infographic</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/oKr4wKc4_P4?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/oKr4wKc4_P4?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This was made in Adobe Animate. The assignment required an interactive Flash infographic to be made detailing statistics about a chosen vehicle.</span>
@@ -381,7 +375,7 @@
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Image Making Studio</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/UH1qVguADms?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/UH1qVguADms?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This was a cinematic video that used footage of buildings created earlier in the semester against a green screen, which was then edited to create a dystopian city trailer. Everyone's hand-ins were shown in the school cinema because they're masterpieces.</span>
@@ -403,7 +397,7 @@
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 2: Image Making Studio</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/VaP7TKZB_oo?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/VaP7TKZB_oo?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This assignment required a 3D animation that contained as many of the 12 principles of animation as possible (defined by Frank Thomas and Ollie Johnston).</span>
@@ -415,7 +409,7 @@
 						<br>
                         <span class="card-subtitle textColor-secondary">Semester 1: Time-Based Studio</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/-mgouKSpQoQ?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/-mgouKSpQoQ?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This assignment was about making a cinematic video of about 2 minutes that used DSLR skills creatively.</span>
@@ -472,7 +466,7 @@
                     <div class="column3 card bg-school2">
                         <span class="card-title">Walk Away</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/tuRGLbflg_w?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/tuRGLbflg_w?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This music video turned out really bad in my opinion. I didn't give much consideration to the camera techniques and the narrative was a little sloppy. I even lip-synched to my own voice!</span>
@@ -482,7 +476,7 @@
 					<div class="column3 card bg-school2">
                         <span class="card-title">PlayStation Commercial</span>
                         <div class="card-video">
-                            <iframe class="card-youtube" allowfullscreen src="BREAK//www.youtube.com/embed/DThJHmnUSrM?rel=0&loop=1&modestbranding=1"></iframe>
+                            <iframe class="card-youtube" allowfullscreen src="https://www.youtube.com/embed/DThJHmnUSrM?rel=0&loop=1&modestbranding=1"></iframe>
                         </div>
                         <div class="card-description">
                             <span>This After Effects animation was a challenge to make use of the 12 principles of animation to advertise a product.</span>
