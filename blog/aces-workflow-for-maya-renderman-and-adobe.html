@@ -16,10 +16,10 @@
     <body class="bg-blog" onload="document.body.style.opacity='1'">
 
 		<!-- Navbar Desktop-->
-        <nav class="navbarDesktop">
+		<nav class="navbar">
             <div class="container-fluid" style="padding: 0px !important;">
 				<div class="navbarLogo">
-					<img class="navbarLogo-image" src="../assets/vector/navbarHexagons.svg"/>
+					<img class="navbarLogo-image" src="../assets/navbarHexagons.svg"/>
 					<a href="../index.html">
                         <div class="navbarLogo-text">
                             <span>TEMP_USERNAME</span>
@@ -29,36 +29,36 @@
                 <div class="navbarLinks">
 					<a href="../cyberthug.html">
 						<div class="navbarLinks-other" style="width: 138px;">
-							<img class="navbarLinks-image" src="../assets/vector/cyberthug_small.svg"/>
+							<img class="navbarLinks-image" src="../assets/vectorIcons/notConformed/cyberthug.svg"/>
 							<span class="navbarLinks-text">Cyberthug</span>
 						</div>
 					</a>
 					<a href="../phoenixNest.html">
 						<div class="navbarLinks-other" style="width: 158px;">
-							<img class="navbarLinks-image" src="../assets/vector/games.svg"/>
+							<img class="navbarLinks-image" src="../assets/vectorIcons/games.svg"/>
 							<span class="navbarLinks-text">Phoenix Nest</span>
 						</div>
 					</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
 					<a href="../school.html">
     					<div class="navbarLinks-other" style="width: 108px;">
-    						<img class="navbarLinks-image" src="../assets/vector/school.svg"/>
+    						<img class="navbarLinks-image" src="../assets/vectorIcons/school.svg"/>
 							<span class="navbarLinks-text">School</span>
     					</div>
 					</a>
 					<a href="../photography.html">
 						<div class="navbarLinks-other" style="width: 156px;">
-							<img class="navbarLinks-image" src="../assets/vector/camera.svg"/>
+							<img class="navbarLinks-image" src="../assets/vectorIcons/camera.svg"/>
 							<span class="navbarLinks-text">Photography</span>
 						</div>
 					</a>
-					<a href="../blog.html">
+    				<a href="../blog.html">
 						<div class="navbarLinks-other" style="width: 94px;">
-							<img class="navbarLinks-image" src="../assets/vector/pencil.svg"/>
+							<img class="navbarLinks-image" src="../assets/vectorIcons/pencil.svg"/>
 							<span class="navbarLinks-text">Blog</span>
 						</div>
 					</a>
-					<div class="navbarLinksDividerDesktop"></div>
+					<div class="navbarLinksDivider"></div>
     				<a href="../about.html">
     					<div class="navbarLinks-other" style="width: 72px !important;">
 							<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
@@ -68,73 +68,64 @@
                 <div class="socialMediaNavbar">
 					<div class="socialMediaNavbar-link" style="border-radius: 13px 6px 6px 13px;">
                         <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
-                            <img class="socialMediaLink-image" src="../assets/vector/youtube.svg"/>
+                            <img class="socialMediaLink-image" src="../assets/vectorLogos/youtube.svg"/>
                         </a>
                     </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px;">
                         <a href="https://twitter.com/ambiguousfeenix">
-                            <img class="socialMediaLink-image" src="../assets/vector/twitter.svg"/>
+                            <img class="socialMediaLink-image" src="../assets/vectorLogos/twitter.svg"/>
                         </a>
                     </div>
                     <div class="socialMediaNavbar-link" style="border-radius: 6px 13px 13px 6px;">
-                        <a href="https://github.com/TEMP_USERNAME">
-                            <img class="socialMediaLink-image" src="../assets/vector/github.svg"/>
+                        <a href="https://github.com/ambiguousphoenix">
+                            <img class="socialMediaLink-image" src="../assets/vectorLogos/github.svg"/>
                         </a>
                     </div>
                 </div>
-            </div>
-        </nav>
-
-
-		<!-- Navbar Mobile -->
-        <nav class="navbarMobile">
-            <div class="container-fluid" style="padding: 0px !important;">
-                <div class="navbarLogo">
-					<img class="navbarLogo-image" src="../assets/vector/navbarHexagons.svg"/>
-					<a href="../index.html">
-                        <div class="navbarLogo-text">
-                            <span>TEMP_USERNAME</span>
-                        </div>
-                    </a>
+                <div class="navbarMenu" onclick="toggleNavbarMenuItems()">
+					<img style="filter:invert();" src="../assets/vectorIcons/menu.svg"/>
 				</div>
-				<div class="navbarDividerMobile"></div>
-                <div class="navbarLinks" style="height: 48px;">
-					<a href="../cyberthug.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/cyberthug_small.svg"/>
-						</div>
-					</a>
-					<a href="../phoenixNest.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/games.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinksDividerDesktop"></div>
-					<a href="../school.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/school.svg"/>
-						</div>
-					</a>
-					<a href="../photography.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/camera.svg"/>
-						</div>
-					</a>
-					<a href="../blog.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem;">
-							<img class="navbarLinks-image" src="../assets/vector/pencil.svg"/>
-						</div>
-					</a>
-					<div class="navbarLinksDividerDesktop"></div>
-					<a href="../about.html">
-						<div class="navbarLinks-other" style="border-radius: 0rem; width: 72px !important;">
-							<span class="navbarLinks-text" style="margin-left: 0px; opacity: 100% !important;">About</span>
-						</div>
-					</a>
-                </div>
             </div>
+			<div id="navbarMenuItems">
+				<div class="divider"></div>
+				<a href="../cyberthug.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/notConformed/cyberthug.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Cyberthug</span>
+					</div>
+				</a>
+				<a href="../phoenixNest.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/games.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Phoenix Nest</span>
+					</div>
+				</a>
+				<a href="../school.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/school.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
+					</div>
+				</a>
+				<a href="../photography.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/camera.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Photography</span>
+					</div>
+				</a>
+				<a href="../blog.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/pencil.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Blog</span>
+					</div>
+				</a>
+				<a href="../about.html">
+					<div class="buttonDownload">
+						<img src="../assets/vectorIcons/placeholder.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">About</span>
+					</div>
+				</a>
+			</div>
         </nav>
-
 
         <div class="colorStrip"></div>
 
@@ -146,7 +137,8 @@
 				<p class="textColor-secondary">16 December 2021</p>
 				<br>
 				<a class="textLink" href="../files/renderman-aces-workflow.pdf" target="_blank">
-					Download the PDF version of this article
+					<img class="textLink-icon" src="../assets/vectorIcons/workbook.svg"/>
+					<span class="textLink-text">Read the PDF version of this article</span>
 				</a>
 				<div class="blog-divider"></div>
                 <div class="row">
@@ -200,9 +192,12 @@
 						Before you get started with Photoshop and After Effects, you’ll need to install the OpenColorIO plugins, along with the configuration files prepared by RenderMan.
 						<br><br>
 						Everything you need can be found in this archive I put together:
-						<br>
-						<a class="textLink" href="https://www.TEMP_USERNAME.com/files/lukes-renderman-aces.zip">lukes-renderman-aces.zip</a>
-						<br><br>
+					</p>
+					<a class="textLink" href="../files/lukes-renderman-aces.zip">
+						<img class="textLink-icon" src="../assets/vectorIcons/notConformed/archive.svg"/>
+						<span class="textLink-text">lukes-renderman-aces.zip</span>
+					</a>
+					<p class="blog-paragraph textColor-blog" style="font-weight: 400;">
 						Credit goes to Fnordware for the plugins.
 						<br><br>
 						Extract the 8BF and AEX files to Photoshop and After Effects’ plugin folders respectively, and move the downloaded folder to “C:/ProgramData/OpenColorIO/” (you might have to create the directory).
@@ -234,7 +229,7 @@
         <!-- Copyright -->
         <div class="footer">
             <div class="colorStrip"></div>
-            <span class="copyright">&copy; TEMP_USERNAME 2022</span>
+            <span class="footer-text">&copy; TEMP_USERNAME 2022</span>
         </div>
 
     </body>
